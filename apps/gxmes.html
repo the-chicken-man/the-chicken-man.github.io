@@ -5,56 +5,7 @@
   <title>ChickenOS</title>
   <link rel="stylesheet" href="os-style.css">
   <link rel="icon" type="image/x-icon" href="./Chicken.png">
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      height: 100vh; 
-      font-family: sans-serif;
-    }
   
-    #gameList {
-      flex: 1;
-      overflow-y: auto;
-      padding: 20px;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 16px;
-    }
-  
-    .taskbar {
-      background: #222;
-      padding: 10px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      color: white;
-      height: 50px;
-    }
-  
-    .taskbar-icons img {
-      margin: 0 8px;
-    }
-    .game-thumb {
-  width: 100%;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 8px;
-  transition: transform 0.2s ease;
-}
-
-.cool-hover {
-  text-align: center;
-}
-
-.cool-hover:hover .game-thumb {
-  transform: scale(1.05);
-}
-
-  </style>
   
 </head>
 <body>
@@ -68,10 +19,10 @@
 
   
   <div id="gameList" class="game-grid">
-    <div class="cool-hover"><a href="games/1v1lol.html" target="_blank"><img src="https://imgs.crazygames.com/games/1v1-lol/cover-1585728351086.png" alt="2048" class="game-thumb"><button style="padding: 6px 12px;">2048</button></a></div><button style="padding: 6px 12px;">1v1.lol</button></a></div>
-    <div class="cool-hover"><a href="games/2048.html" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/500px-2048_logo.svg.png" alt="2048" class="game-thumb"><button style="padding: 6px 12px;">2048</button></a></div>
-    <div class="cool-hover"><a href="games/60sbrgrrn.html" target="_blank"><img src="https://www.coolmathgames.com/sites/default/files/styles/app_icon/public/60-second-burger-run-icon.png" alt="theimage" class="game-thumb"><button style="padding: 6px 12px;">60 Second Burger Run</button></a></div>
-    <div class="cool-hover"><a href="games/agariolt.html" target="_blank"><img src="https://friv.guru/images/agario-lite.jpg" alt="og-game" class="game-thumb"><button style="padding: 6px 12px;">Agar.io lite</button></a></div>
+    <div class="cool-hover"><a href="games/1v1lol.html" target="_blank"><button style="padding: 6px 12px;">2048</button></a></div><button style="padding: 6px 12px;">1v1.lol</button></a></div>
+    <div class="cool-hover"><a href="games/2048.html" target="_blank"><button style="padding: 6px 12px;">2048</button></a></div>
+    <div class="cool-hover"><a href="games/60sbrgrrn.html" target="_blank"><button style="padding: 6px 12px;">60 Second Burger Run</button></a></div>
+    <div class="cool-hover"><a href="games/agariolt.html" target="_blank"><button style="padding: 6px 12px;">Agar.io lite</button></a></div>
     <div class="cool-hover"><a href="games/achivementunlocked.html" target="_blank"><button style="padding: 6px 12px;">Achievement Unlocked</button></a></div>
     <div class="cool-hover"><a href="games/spooderman.html" target="_blank"><button style="padding: 6px 12px;">Amazing Strange Rope-Police</button></a></div>
     <div class="cool-hover"><a href="games/asmallworldcup.html" target="_blank"><button style="padding: 6px 12px;">A Small World Cup</button></a></div>
