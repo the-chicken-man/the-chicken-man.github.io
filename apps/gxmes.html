@@ -5,6 +5,40 @@
   <title>ChickenOS</title>
   <link rel="stylesheet" href="os-style.css">
   <link rel="icon" type="image/x-icon" href="./Chicken.png">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh; /* Full viewport height */
+      font-family: sans-serif;
+    }
+  
+    #gameList {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+    }
+  
+    .taskbar {
+      background: #222;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      height: 50px;
+    }
+  
+    .taskbar-icons img {
+      margin: 0 8px;
+    }
+  </style>
+  
 </head>
 <body>
 
@@ -16,7 +50,7 @@
   </div>
 
   
-  <div id="gameList">
+  <div id="gameList" class="game-grid">
     <div class="cool-hover"><a href="games/1v1lol.html" target="_blank"><button style="padding: 6px 12px;">1v1.lol</button></a></div>
     <div class="cool-hover"><a href="games/2048.html" target="_blank"><button style="padding: 6px 12px;">2048</button></a></div>
     <div class="cool-hover"><a href="games/60sbrgrrn.html" target="_blank"><button style="padding: 6px 12px;">60 Second Burger Run</button></a></div>
