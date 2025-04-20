@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ChickenOS</title>
+  <link rel="stylesheet" href="os-style.css">
+  <link rel="icon" type="image/x-icon" href="./Chicken.png">
+</head>
+<body>
+
+
+
+  <div class="taskbar">
+    
+    <div class="taskbar-icons">
+  <a href="files.html"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/folder-invoices--v1.png" alt="File Explorer"></a>
+   <a href="browse.html"><img src="https://img.icons8.com/?size=100&id=123437&format=png&color=ffffff" alt="Browser"></a>
+   <a href="settings.html"><img src="https://img.icons8.com/?size=100&id=364&format=png&color=ffffff" alt="Settings"></a>
+   <a href="gxmes.html"><img src="https://img.icons8.com/?size=100&id=15888&format=png&color=ffffff" alt="Games"></a>
+   <a href="home.html"><img src="https://img.icons8.com/?size=100&id=2719&format=png&color=ffffff" alt="Home"></a>
+    </div>
+    
+    <div class="clock" id="clock">00:00</div>
+  </div>
+
+  <script>
+    function updateClock() {
+      const now = new Date();
+      const hours = now.getHours().toString().padStart(2, '0');
+      const minutes = now.getMinutes().toString().padStart(2, '0');
+      document.getElementById('clock').textContent = `${hours}:${minutes}`;
+    }
+
+    setInterval(updateClock, 1000);
+    updateClock();
+  </script>
+
+</body>
+</html>
