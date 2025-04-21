@@ -8,7 +8,108 @@
 </head>
 <body>
 
+  <h2>Upload a File</h2>
+  <input type="file" id="fileInput" accept="image/*, .html, .pdf, .txt, .mp4, .webm, .ogg">
+  <div id="fileDisplayArea"></div>
 
+  <script>
+    // Get the file input and the display area
+    const fileInput = document.getElementById("fileInput");
+    const fileDisplayArea = document.getElementById("fileDisplayArea");
+
+    // Event listener for file input change
+    fileInput.addEventListener("change", handleFileSelect, false);
+
+    // Handle the file select event
+    function handleFileSelect(event) {
+      const file = event.target.files[0]; // Get the selected file
+      if (file) {
+        const fileType = file.type;
+        const reader = new FileReader(); // Create a file reader to read the file
+
+        // Clear the display area
+        fileDisplayArea.innerHTML = '';
+
+        // Check file type and render accordingly
+        if (fileType.startsWith("image/")) {
+          renderImage(file);
+        } else if (fileType === "text/html") {
+          renderHTML(file);
+        } else if (fileType === "application/pdf") {
+          renderPDF(file);
+        } else if (fileType.startsWith("video/")) {
+          renderVideo(file);
+        } else if (fileType === "text/plain") {
+          renderText(file);
+        } else {
+          fileDisplayArea.innerHTML = "Unsupported file type!";
+        }
+      }
+    }
+
+    // Function to render image files
+    function renderImage(file) {
+      const reader = new FileReader();
+      reader.onload = function(event) {
+        const img = document.createElement("img");
+        img.src = event.target.result;
+        img.style.maxWidth = "100%"; // Make sure the image is responsive
+        fileDisplayArea.appendChild(img);
+      };
+      reader.readAsDataURL(file); // Read image as data URL
+    }
+
+    // Function to render HTML files
+    function renderHTML(file) {
+      const reader = new FileReader();
+      reader.onload = function(event) {
+        const iframe = document.createElement("iframe");
+        iframe.srcdoc = event.target.result; // Set the content of iframe to the HTML file's content
+        iframe.style.width = "100%";
+        iframe.style.height = "500px"; // Give iframe a fixed height
+        fileDisplayArea.appendChild(iframe);
+      };
+      reader.readAsText(file); // Read HTML as text
+    }
+
+    // Function to render PDF files
+    function renderPDF(file) {
+      const reader = new FileReader();
+      reader.onload = function(event) {
+        const pdfData = event.target.result;
+        const pdfIframe = document.createElement("iframe");
+        pdfIframe.src = URL.createObjectURL(new Blob([pdfData], {type: 'application/pdf'}));
+        pdfIframe.style.width = "100%";
+        pdfIframe.style.height = "500px"; // Give iframe a fixed height for PDF
+        fileDisplayArea.appendChild(pdfIframe);
+      };
+      reader.readAsArrayBuffer(file); // Read PDF as binary data
+    }
+
+    // Function to render video files
+    function renderVideo(file) {
+      const reader = new FileReader();
+      reader.onload = function(event) {
+        const video = document.createElement("video");
+        video.src = event.target.result;
+        video.controls = true; // Add video controls (play, pause, etc.)
+        video.style.maxWidth = "100%"; // Make sure the video is responsive
+        fileDisplayArea.appendChild(video);
+      };
+      reader.readAsDataURL(file); // Read video as data URL
+    }
+
+    // Function to render text files
+    function renderText(file) {
+      const reader = new FileReader();
+      reader.onload = function(event) {
+        const pre = document.createElement("pre");
+        pre.textContent = event.target.result; // Display text content
+        fileDisplayArea.appendChild(pre);
+      };
+      reader.readAsText(file); // Read text as plain text
+    }
+  </script>
 
   <div class="taskbar">
     
