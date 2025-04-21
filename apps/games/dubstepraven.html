@@ -1,0 +1,231 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>GameTenAttempt4</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="https://19202.cache.armorgames.com/files/games/dubstep-raven-19202/TemplateData/style.css">
+</head>
+
+<body>
+    <div id="unity-container" style="width:100%;height:100%;" class="unity-desktop">
+        <canvas id="unity-canvas" width="100%" height="100%"></canvas>
+        <div id="unity-loading-bar">
+            <div style="width:256px;height:256px;position: relative;">
+                <canvas id="snake" width=256 height=256>
+                </canvas>
+                <image id="snakeOverlay" src="https://19202.cache.armorgames.com/files/games/dubstep-raven-19202/TemplateData/LoadingPrompt.png" style="left:0;top:0;width:100%; height:100%;position:absolute;cursor: pointer;">
+                </image>    
+            </div>
+            <div id="unity-progress-bar-empty">
+                <div id="unity-progress-bar-full"></div>
+            </div>
+        </div>
+        <div id="unity-warning"> </div>
+        <div id="unity-footer">
+            <div id="unity-fullscreen-button" style="display: none;"></div>
+        </div>
+    </div>
+    <script>
+        var container = document.querySelector("#unity-container");
+        var canvas = document.querySelector("#unity-canvas");
+        var loadingBar = document.querySelector("#unity-loading-bar");
+        var progressBarFull = document.querySelector("#unity-progress-bar-full");
+        var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+        var warningBanner = document.querySelector("#unity-warning");
+
+        var loaderUrl = "https://19202.cache.armorgames.com/files/games/dubstep-raven-19202/Build/DubstepRaven.loader.js";
+        var config = {
+            dataUrl: "https://19202.cache.armorgames.com/files/games/dubstep-raven-19202/Build/DubstepRaven.data.unityweb",
+				frameworkUrl: "https://19202.cache.armorgames.com/files/games/dubstep-raven-19202/Build/DubstepRaven.framework.js.unityweb",
+				codeUrl: "https://19202.cache.armorgames.com/files/games/dubstep-raven-19202/Build/DubstepRaven.wasm.unityweb",
+				streamingAssetsUrl: "https://19202.cache.armorgames.com/files/games/dubstep-raven-19202/StreamingAssets",
+				companyName: "DefaultCompany",
+				productName: "GameTenAttempt4",
+				productVersion: "0.1",
+        };
+
+        loadingBar.style.display = "block";
+
+        var snakeCanvas = document.getElementById("snake");
+        var snakeId = -1;
+        var hasSnake = false;
+        function makeSnake(){
+            hasSnake = true;
+            function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+            function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+            function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+            function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+            function _iterableToArrayLimit(arr, i) { var _i = arr && (typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]); if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+            function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+            
+            var canvasWidth = 256;
+            var canvasHeight = 256;
+            var ctx = snakeCanvas.getContext("2d", {alpha: false});
+            ctx.fillStyle = "#252525";
+            ctx.fillRect(0, 0, 256, 256);
+            var dirs = {
+                Right: [1, 0],
+                Left: [-1, 0],
+                Down: [0, 1],
+                Up: [0, -1]
+            };
+            var snake = [[10, 10]],
+                apple = [4, 4],
+                dir = [0, 0];
+            onkeydown = function onkeydown(e) {
+                var key = dirs[e.key.slice(5)];
+                if (key) {
+                    e.preventDefault();
+                    var newDir = key;
+
+                    if (newDir[0] !== -dir[0] || newDir[1] !== -dir[1]) {
+                        dir = newDir;
+                    }
+                }
+            };
+            snakeId = setInterval(function () {
+                snake.unshift([snake[0][0] + dir[0] + 16 & 15, snake[0][1] + dir[1] + 16 & 15]);
+                if ("" + snake[0] == apple) do {
+                    apple = [Math.floor(Math.random() * 16), Math.floor(Math.random() * 16)];
+                } while (snake.some(function (seg) {
+                    return "" + seg == apple;
+                }));
+                else if (snake.slice(1).some(function (seg) {
+                    return "" + seg == snake[0];
+                })) snake.splice(1); 
+                else snake.pop();
+
+                ctx.fillStyle = "#151515";
+                ctx.fillRect(0, 0, 256, 256);
+
+                if (dir[0] === 0 && dir[1] === 0) {
+                    var fontHeight = 16;
+                    var offset = canvasHeight / 2;
+                    ctx.font = "bold ".concat(fontHeight, "px Helvetica ");
+                    ctx.textAlign = "center";
+                    ctx.fon
+                    ctx.fillStyle = "#ff0069";
+                    ctx.fillText("Arrow Keys To Move", canvasWidth / 2, offset);
+                }
+
+                ctx.fillStyle = "#ff0069";
+                ctx.fillRect(apple[0] * 16, apple[1] * 16, 16, 16);
+                ctx.fillStyle = "lime";
+                snake.forEach(function (_ref) {
+                    var _ref2 = _slicedToArray(_ref, 2),
+                        x = _ref2[0],
+                        y = _ref2[1];
+
+                    return ctx.fillRect(x * 16, y * 16, 16, 16);
+                });
+            }, 125);
+        }
+
+        function killSnake(){
+            if(hasSnake){
+                clearInterval(snakeId);
+                onkeydown = null;
+            }
+        }
+
+        var snakeOverlay = document.getElementById("snakeOverlay");
+        snakeOverlay.onclick = () => {
+            snakeOverlay.onclick = null;
+            snakeOverlay.style.display = "none";
+            makeSnake();
+        };
+
+        var script = document.createElement("script");
+        script.src = loaderUrl;
+        script.onload = () => {
+            createUnityInstance(canvas, config, (progress) => {
+                progressBarFull.style.width = 100 * progress + "%";
+            }).then((unityInstance) => {
+                killSnake();
+
+                /* Get the documentElement (<html>) to display the page in fullscreen */
+                var elem = document.documentElement;
+
+                function isFullscreen() {
+                    return document.fullscreenElement || document.webkitFullscreenElement;
+                }
+
+                /* View in fullscreen */
+                function openFullscreen() {
+                    if (elem.requestFullscreen) {
+                        elem.requestFullscreen();
+                    } else if (elem.webkitRequestFullscreen) {
+                        /* Safari */
+                        elem.webkitRequestFullscreen();
+                    } else if (elem.msRequestFullscreen) {
+                        /* IE11 */
+                        elem.msRequestFullscreen();
+                    }
+                }
+
+                /* Close fullscreen */
+                function closeFullscreen() {
+                    if (document.exitFullscreen) {
+                        document.exitFullscreen();
+                    } else if (document.webkitExitFullscreen) {
+                        /* Safari */
+                        document.webkitExitFullscreen();
+                    } else if (document.msExitFullscreen) {
+                        /* IE11 */
+                        document.msExitFullscreen();
+                    }
+                }
+
+                loadingBar.style.display = "none";
+                fullscreenButton.onclick = () => {
+                    openFullscreen();
+                };
+
+
+                var canvas = unityInstance.Module.canvas;
+
+                var container = canvas.parentElement;
+
+                function onResize() {
+                    var w;
+                    var h;
+
+                    if (isFullscreen()) {
+                        fullscreenButton.style.display = "none";
+
+                        w = window.innerWidth;
+                        h = window.innerHeight;
+
+                        var r = 648 / 1152;
+
+                        if (w * r > window.innerHeight) {
+                            w = Math.min(w, Math.ceil(h / r));
+                        }
+                        h = Math.floor(w * r);
+                    } else {
+                        fullscreenButton.style.display = "none";
+
+                        w = 1152;
+                        h = 648;
+                    }
+
+                    container.style.width = canvas.style.width = "100%";
+                    container.style.height = canvas.style.height = "100%";
+                }
+                
+                window.addEventListener('resize', onResize);
+                onResize();
+            }).catch((message) => {
+                alert(message);
+            });
+        };
+        document.body.appendChild(script);
+    </script>
+</body>
+
+</html>
