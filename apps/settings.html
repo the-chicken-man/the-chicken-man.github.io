@@ -8,7 +8,7 @@
 </head>
 <body>
 
-  <button onclick="openab()">Open in about:blank</button>
+  <div class="cool-hover"><button onclick="openab()">Open in about:blank</button></div>
 
   <div class="taskbar">
     
@@ -34,11 +34,16 @@
     setInterval(updateClock, 1000);
     updateClock();
   </script>
- <script>
-  function openab() {
-      var newWindow = window.open('about:blank', '_blank');
-      newWindow.location.href = 'https://chicken-os-ab-cloak.vercel.app';
-  }
+  <script>
+    function openab() {
+        
+        var newWindow = window.open('about:blank', '_blank');
+
+        newWindow.document.write('<html><head><title>about:blank</title></head><body>');
+        newWindow.document.write('<iframe src="https://chicken-os-ab-cloak.vercel.app" style="width:100%; height:100vh; border:none;"></iframe>');
+        newWindow.document.write('</body></html>');
+    }
+</script>
 </script>
 </body>
 </html>
