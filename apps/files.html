@@ -8,29 +8,29 @@
 </head>
 <body>
 
-  <h2>Upload a File</h2>
+  <h2>View files [BETA]</h2>
   <input type="file" id="fileInput" accept="image/*, .html, .pdf, .txt, .mp4, .webm, .ogg">
   <div id="fileDisplayArea"></div>
 
   <script>
-    // Get the file input and the display area
+    
     const fileInput = document.getElementById("fileInput");
     const fileDisplayArea = document.getElementById("fileDisplayArea");
 
-    // Event listener for file input change
+    
     fileInput.addEventListener("change", handleFileSelect, false);
 
-    // Handle the file select event
+    
     function handleFileSelect(event) {
-      const file = event.target.files[0]; // Get the selected file
+      const file = event.target.files[0];
       if (file) {
         const fileType = file.type;
-        const reader = new FileReader(); // Create a file reader to read the file
+        const reader = new FileReader(); 
 
-        // Clear the display area
+        
         fileDisplayArea.innerHTML = '';
 
-        // Check file type and render accordingly
+        
         if (fileType.startsWith("image/")) {
           renderImage(file);
         } else if (fileType === "text/html") {
@@ -47,32 +47,32 @@
       }
     }
 
-    // Function to render image files
+    
     function renderImage(file) {
       const reader = new FileReader();
       reader.onload = function(event) {
         const img = document.createElement("img");
         img.src = event.target.result;
-        img.style.maxWidth = "100%"; // Make sure the image is responsive
+        img.style.maxWidth = "100%"; 
         fileDisplayArea.appendChild(img);
       };
-      reader.readAsDataURL(file); // Read image as data URL
+      reader.readAsDataURL(file); 
     }
 
-    // Function to render HTML files
+   
     function renderHTML(file) {
       const reader = new FileReader();
       reader.onload = function(event) {
         const iframe = document.createElement("iframe");
-        iframe.srcdoc = event.target.result; // Set the content of iframe to the HTML file's content
+        iframe.srcdoc = event.target.result; 
         iframe.style.width = "100%";
-        iframe.style.height = "500px"; // Give iframe a fixed height
+        iframe.style.height = "500px"; 
         fileDisplayArea.appendChild(iframe);
       };
-      reader.readAsText(file); // Read HTML as text
+      reader.readAsText(file); 
     }
 
-    // Function to render PDF files
+    
     function renderPDF(file) {
       const reader = new FileReader();
       reader.onload = function(event) {
@@ -80,35 +80,36 @@
         const pdfIframe = document.createElement("iframe");
         pdfIframe.src = URL.createObjectURL(new Blob([pdfData], {type: 'application/pdf'}));
         pdfIframe.style.width = "100%";
-        pdfIframe.style.height = "500px"; // Give iframe a fixed height for PDF
+        pdfIframe.style.height = "500px"; 
         fileDisplayArea.appendChild(pdfIframe);
       };
-      reader.readAsArrayBuffer(file); // Read PDF as binary data
+      reader.readAsArrayBuffer(file); 
     }
 
-    // Function to render video files
+    
     function renderVideo(file) {
       const reader = new FileReader();
       reader.onload = function(event) {
         const video = document.createElement("video");
         video.src = event.target.result;
-        video.controls = true; // Add video controls (play, pause, etc.)
-        video.style.maxWidth = "100%"; // Make sure the video is responsive
+        video.controls = true; 
+        video.style.maxWidth = "100%"; 
         fileDisplayArea.appendChild(video);
       };
-      reader.readAsDataURL(file); // Read video as data URL
+      reader.readAsDataURL(file); 
     }
 
-    // Function to render text files
+    
     function renderText(file) {
       const reader = new FileReader();
       reader.onload = function(event) {
         const pre = document.createElement("pre");
-        pre.textContent = event.target.result; // Display text content
+        pre.textContent = event.target.result; 
         fileDisplayArea.appendChild(pre);
       };
-      reader.readAsText(file); // Read text as plain text
+      reader.readAsText(file); 
     }
+    // this was too hard for me to code so chatgpt heehee ^
   </script>
 
   <div class="taskbar">
