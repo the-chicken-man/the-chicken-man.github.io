@@ -8,7 +8,7 @@
 </head>
 <body>
 
-
+  <button onclick="openab()">Open in about:blank</button>
 
   <div class="taskbar">
     
@@ -34,6 +34,11 @@
     setInterval(updateClock, 1000);
     updateClock();
   </script>
-
+ <script>
+  function openab() {
+      var newWindow = window.open('about:blank', '_blank');
+      newWindow.location.href = 'https://chicken-os-ab-cloak.vercel.app';
+  }
+</script>
 </body>
 </html>
