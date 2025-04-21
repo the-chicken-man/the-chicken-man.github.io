@@ -10,40 +10,7 @@
 
   <div class="cool-hover"><button onclick="openab()">Open in about:blank</button></div>
   
-  <h1>Choose a Background</h1>
-  <p>Click one of the buttons below to change the background.</p>
-  <button onclick="setBackground('waveid')">Waves</button>
-  <button onclick="setBackground('technoid')">Techno</button>
-  <button onclick="resetBackground()">Reset to Original</button>
-
-  <script>
-    function setBackground(option) {
-      switch(option) {
-        case 'ogid':
-          document.body.style.backgroundColor = "#000000";  // Original background color
-          document.body.style.backgroundImage = "";  // Clear any background image
-          break;
-        case 'waveid':
-          document.body.style.backgroundImage = "url('https://img.freepik.com/free-photo/abstract-background-flowing-smoke-design_1048-15691.jpg')";
-          document.body.style.backgroundSize = "cover";  
-          break;
-        case 'technoid':
-          document.body.style.backgroundImage = "url('https://img.freepik.com/premium-photo/full-frame-shot-illuminated-cyberspace-data_1048944-13236428.jpg?w=1380')";
-          document.body.style.backgroundSize = "cover";  
-          break;
-        default:
-          document.body.style.backgroundColor = "#000000";
-          document.body.style.backgroundImage = ""; 
-      }
-    }
-
-    function resetBackground() {
-     
-      document.body.style.backgroundColor = "#000000";
-      document.body.style.backgroundImage = "";
-    }
-  </script>
-
+  
   <div class="taskbar">
     
     <div class="taskbar-icons">
