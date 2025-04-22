@@ -65,33 +65,8 @@
   </div>
 
   
-  <script>
-    function updateClock() {
-      const now = new Date();
-      const hours = now.getHours().toString().padStart(2, '0');
-      const minutes = now.getMinutes().toString().padStart(2, '0');
-      document.getElementById('clock').textContent = `${hours}:${minutes}`;
-    }
-    setInterval(updateClock, 1000);
-    updateClock();
-  </script>
+  <script src="js/clock.js"></script>
 
-
-  <script>
-    const searchInput = document.getElementById('searchInput');
-    const gameList = document.getElementById('gameList');
-
-    searchInput.addEventListener('input', () => {
-      const searchTerm = searchInput.value.toLowerCase();
-      const games = gameList.querySelectorAll('.cool-hover');
-
-      games.forEach(game => {
-        const text = game.textContent.toLowerCase();
-        game.style.display = text.includes(searchTerm) ? '' : 'none';
-      });
-    });
-    //if you think im a skid, now that my work is 20% chatgpt 50% me and 30% is even done yet
-  </script>
 
 </body>
 </html>
