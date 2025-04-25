@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: #1e1e2f;
+    font-family: sans-serif;
+    color: white;
+  }
+
+  .taskbar {
+    height: 40px;
+    width: 98.5%;
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.4);
+  }
+
+  .start-button {
+    background: #0078D7;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .taskbar-icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .taskbar-icons img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .clock {
+    font-size: 14px;
+  } 
+body {
+background-color: black;
+color: yellow;
+font-family: Courier New, monospace;;
+}
+h1 {
+font-family: 'Share Tech Mono', monospace;
+text-align: center;
+}
+button {
+background-color: black;
+border: yellow;
+color: yellow;
+padding: 5px 10px;
+text-align: center;
+display: inline-block;
+font-size: 20px;
+}
+.cool-hover {
+background-color: black;
+border: 2px solid yellow;
+color: yellow;
+padding: 5px 10px;
+text-align: center;
+display: inline-block;
+font-size: 20px;
+font-family: 'Share Tech Mono', monospace;
+transition: all 0.3s ease;
+cursor: pointer;
+text-shadow: 0 0 5px yellow;
+box-shadow: 0 0 10px yellow inset;
+}
+
+.cool-hover:hover {
+background-color: yellow;
+color: black;
+box-shadow: 0 0 20px yellow;
+text-shadow: none;
+}
+h1, h2 {
+  margin: 0;
+  padding: 10px 20px;
+  text-align: center;
+}
