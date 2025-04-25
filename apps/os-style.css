@@ -64,7 +64,7 @@ button {
   display: inline-block;
   font-size: 20px;
 }
-.cool-hover {
+.sigma-btn {
   background-color: black;
   border: 2px solid yellow;
   color: yellow;
@@ -79,11 +79,10 @@ button {
   box-shadow: 0 0 10px yellow inset;
 }
 
-.cool-hover:hover {
+.sigma-btn:hover {
   background-color: yellow;
   color: black;
   box-shadow: 0 0 20px yellow;
-  text-shadow: none;
 }
 h1, h2 {
     margin: 0;
