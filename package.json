@@ -1,0 +1,24 @@
+{
+    "name": "chicken-os",
+    "version": "1.0.0",
+    "description": "A web OS with games, proxy and more",
+    "main": "index.html",
+    "scripts": {
+      "start": "serve"
+    },
+    "keywords": [
+      "html",
+      "css",
+      "unblocker",
+      "proxy",
+      "web os",
+      "chicken-os",
+      "unblocked"
+    ],
+    "author": "the-chicken-man",
+    "license": "MIT",
+    "devDependencies": {
+      "serve": "11.2.0"
+    }
+  }
+  

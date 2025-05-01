@@ -4,4 +4,4 @@
 
 ### It can be used to bypass certain work, school or country restrictions
 
-### It can be deployed on any static deploying site or non static deploying site,j
+### It can be deployed on any static deploying site or non static deploying site,
