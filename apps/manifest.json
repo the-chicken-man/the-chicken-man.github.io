@@ -1,7 +1,7 @@
 {
     "name": "ChickenOS",
     "short_name": "ChickenOS",
-    "start_url": "home.html",
+    "start_url": "index.html",
     "display": "standalone",
    "author": "Chicken Man",
    "icons": {
