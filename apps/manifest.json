@@ -1,0 +1,12 @@
+{
+    "name": "ChickenOS",
+    "short_name": "ChickenOS",
+    "start_url": "home.html",
+    "display": "standalone",
+   "author": "Chicken Man",
+   "icons": {
+  "32": "https://chicken-os.pages.dev/Chicken.png",
+  
+}
+  }
+  
