@@ -38,66 +38,17 @@
 
 </head>
 <body>
- <div id="consent-box">
-  <p>To use the forum, you must agree to logging your IP and username.</p>
-  <input type="text" id="user-name" placeholder="Enter your username"><br>
-  <button onclick="agreeToLog()">I Agree</button>
-</div>
+ <!-- begin wwww.htmlcommentbox.com -->
+<div id="HCB_comment_box">
+  <script>
+    hcb_user = {
+        PAGE: "chickenbigboyplaychickenosonlinechatstuffforbigfuntimescode"  
+    };
+</script><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+<link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+<script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24yx4hgx3wxHGPbUBiewa1s1"+"&opts=16798&num=10&ts=1746545002194");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end www.htmlcommentbox.com -->
 
-<div id="comment-box-container" style="display: none;">
-  <!-- htmlcommentbox.com widget will go here -->
-  <div id="HCB_comment_box">
-    <script>
-      hcb_user = {
-        PAGE: "chickenbigboyplaychickenosonlinechatstuffforbigfuntimescode"
-      };
-    </script>
-    <a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...
-  </div>
-  <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
-  <script type="text/javascript" id="hcb"></script>
-</div>
-
-<script>
-  const SHEET_URL = "https://script.google.com/macros/s/AKfycbwIXOpJlkfhvEEXSsVK-jqyHd4nL4ZK_vMibWn0kEpTN2XnoQCzq9GiD_flrizZflzf/exec";
-
-  function agreeToLog() {
-    const name = document.getElementById("user-name").value;
-    if (!name) return alert("Enter your username first!");
-
-    fetch("https://api.ipify.org?format=json")
-      .then(res => res.json())
-      .then(data => {
-        const payload = {
-          username: name,
-          ip: data.ip,
-          message: "(Agreed to terms - used htmlcommentbox.com)",
-        };
-
-        fetch(SHEET_URL, {
-          method: "POST",
-          body: JSON.stringify(payload),
-          headers: { "Content-Type": "application/json" }
-        }).then(() => {
-          
-          document.getElementById("consent-box").style.display = "none";
-          document.getElementById("comment-box-container").style.display = "block";
-
-         
-          const script = document.createElement("script");
-          script.src = "https://www.htmlcommentbox.com/jread?page=" +
-                       encodeURIComponent(hcb_user.PAGE) +
-                       "&mod=%241%24wq1rdBcg%24yx4hgx3wxHGPbUBiewa1s1" +
-                       "&opts=16798&num=10&ts=" + Date.now();
-          document.getElementById("hcb").replaceWith(script);
-        });
-      });
-  }
-</script>
-
-
-
-  
 
 
     
