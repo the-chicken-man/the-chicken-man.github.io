@@ -38,16 +38,62 @@
 
 </head>
 <body>
-<!-- begin wwww.htmlcommentbox.com -->
-<div id="HCB_comment_box">
-  <script>
-    hcb_user = {
-        PAGE: "chickenbigboyplaychickenosonlinechatstuffforbigfuntimescode"  
-    };
-</script><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
-<link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
-<script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24yx4hgx3wxHGPbUBiewa1s1"+"&opts=16798&num=10&ts=1746545002194");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-<!-- end www.htmlcommentbox.com -->
+  <div id="ip-consent" style="padding:20px;background:#111;color:#fff;">
+  <p>To use this forum, you must agree to logging your IP address.</p>
+  <button onclick="agree()">I Agree</button>
+  <button onclick="window.location.href='home.html'">I Do Not Agree</button>
+</div>
+
+<div id="comment-form" style="display:none;">
+  <input type="text" id="username" placeholder="Your name"><br>
+  <textarea id="message" placeholder="Your message"></textarea><br>
+  <button onclick="sendComment()">Post</button>
+  <p id="status"></p>
+</div>
+
+<script>
+  const SHEET_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwIXOpJlkfhvEEXSsVK-jqyHd4nL4ZK_vMibWn0kEpTN2XnoQCzq9GiD_flrizZflzf/exec"; 
+
+  function agree() {
+    localStorage.setItem("ipConsent", "true");
+    document.getElementById("ip-consent").style.display = "none";
+    document.getElementById("comment-form").style.display = "block";
+  }
+
+  window.onload = () => {
+    if (localStorage.getItem("ipConsent") === "true") {
+      document.getElementById("ip-consent").style.display = "none";
+      document.getElementById("comment-form").style.display = "block";
+    }
+  };
+
+  function sendComment() {
+    const username = document.getElementById("username").value;
+    const message = document.getElementById("message").value;
+
+    if (!username || !message) return alert("Please fill out all fields.");
+
+    fetch("https://api.ipify.org?format=json")
+      .then(res => res.json())
+      .then(data => {
+        const payload = {
+          username: username,
+          message: message,
+          ip: data.ip
+        };
+
+        fetch(SHEET_WEBHOOK_URL, {
+          method: "POST",
+          body: JSON.stringify(payload),
+          headers: { "Content-Type": "application/json" }
+        })
+        .then(() => document.getElementById("status").textContent = "Posted!")
+        .catch(err => console.error("Send failed:", err));
+      });
+  }
+</script>
+
+
     
     <div class="taskbar-icons">
   <a href="files.html"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/folder-invoices--v1.png" alt="File Explorer"></a>
