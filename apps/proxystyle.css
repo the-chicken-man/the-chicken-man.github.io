@@ -8,6 +8,7 @@
         }
     .mainbrowser {
      padding-bottom: 40px;
+     padding-top: 0px;
     }
 
         ::-webkit-scrollbar {
