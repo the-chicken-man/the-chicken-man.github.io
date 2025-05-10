@@ -55,15 +55,7 @@ h1 {
 font-family: 'Share Tech Mono', monospace;
 text-align: center;
 }
-button {
-background-color: black;
-border: yellow;
-color: yellow;
-padding: 5px 10px;
-text-align: center;
-display: inline-block;
-font-size: 20px;
-}
+
 .cool-hover {
 background-color: black;
 border: 2px solid yellow;
