@@ -31,29 +31,8 @@
             transform: scale(1.1);
         }
     
-        @keyframes pop-out {
-            0% {
-                transform: scale(1);
-            }
-            50% {
-                transform: scale(1.1);
-            }
-            100% {
-                transform: scale(1);
-            }
-        }
 
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-            }
-            50% {
-                transform: scale(1.05);
-            }
-            100% {
-                transform: scale(1);
-            }
-        }
+      
     
         
     
@@ -88,16 +67,7 @@
             }
         }
     
-        @keyframes rainbowGlow {
-            0% { box-shadow: 0 0 10px red, 0 0 20px red; }
-            14% { box-shadow: 0 0 10px orange, 0 0 20px orange; }
-            28% { box-shadow: 0 0 10px yellow, 0 0 20px yellow; }
-            42% { box-shadow: 0 0 10px green, 0 0 20px green; }
-            57% { box-shadow: 0 0 10px blue, 0 0 20px blue; }
-            71% { box-shadow: 0 0 10px indigo, 0 0 20px indigo; }
-            85% { box-shadow: 0 0 10px violet, 0 0 20px violet; }
-            100% { box-shadow: 0 0 10px red, 0 0 20px red; }
-        }
+       
     
         
     
@@ -134,39 +104,12 @@
             gap: 15px; 
         }
     
-        
-    
-       
-    
-        .select-button {
-            position: relative;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            color: white;
-            background-color: transparent; 
-            border: 3px solid transparent; 
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-            overflow: hidden;
-            transition: transform 0.3s ease;
-            animation: none;
-        }
-
-        .select-button:hover {
-            transform: scale(1.1);
-            animation: rainbowGlow 1.5s infinite; 
-            z-index: 1;
-        }
-    
-        
-    
         .url-bar { 
             flex-grow: 1; 
             padding: 8px; 
-            border-radius: 24px; 
+            border-radius: 5px; 
             border: none; 
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-            transition: box-shadow 0.3s;
         }
     
         .url-bar:focus {
@@ -174,45 +117,7 @@
             outline: none;
         }
     
-        .go-btn { 
-            background: white; 
-            border: none; 
-            padding: 8px 24px; 
-            border-radius: 24px; 
-            cursor: pointer; 
-            transition: background 0.3s, transform 0.3s;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-            position: relative;
-            overflow: hidden;
-        }
-    
-        .go-btn::after {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 300%;
-            height: 300%;
-            background: rgba(255, 255, 255, 0.3);
-            border-radius: 50%;
-            transition: width 0.5s, height 0.5s, top 0.5s, left 0.5s;
-            z-index: 0;
-            transform: translate(-50%, -50%) scale(0);
-        }
-    
-        .go-btn :hover::after {
-            width: 400%;
-            height: 400%;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%) scale(1);
-        }
-    
-        .go-btn:hover {
-            background: #f0f0f0;
-            transform: translateY(-2px);
-            z-index: 1;
-        }
+       
     
         .content-frame { 
             width: 100%; 
