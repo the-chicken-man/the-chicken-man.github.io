@@ -856,7 +856,7 @@ function proxy() {
                         searchBox.addEventListener('keypress', e => {
                             if (e.key === 'Enter') {
                                 const query = searchBox.value;
-                                const googleUrl = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+                                const googleUrl = `https://chicken-search.vercel.app/#gsc.tab=0&gsc.q=${encodeURIComponent(query)}`;
                                 proxyLoad(googleUrl, frame);
                             }
                         });
