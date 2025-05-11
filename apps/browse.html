@@ -451,7 +451,7 @@ function home() {
 async function proxyLoad(url, frame) {
     const urlToLoad = url.includes('.') 
         ? `https://${url}` 
-        : `https://html.duckduckgo.com/html?q=${encodeURIComponent(url)}`;
+        : `https://chicken-search.vercel.app/#gsc.tab=0&gsc.q={encodeURIComponent(url)}`;
 
     const proxyBase = "https://toothpaste.bekekes390.workers.dev/?url=";
     const proxyUrl = proxyBase + encodeURIComponent(urlToLoad);
@@ -722,8 +722,8 @@ function proxy() {
             
             <div style="position: relative; margin: 0 auto; width: fit-content;">
                 <input type="text" 
-                    id="searchBox" 
-                    placeholder="Search DuckDuckGo" 
+                    id="searchBox"
+                    placeholder="Search with ChickenSearch" 
                     style="
                         padding: 18px 50px 18px 30px;
                         width: 600px;
