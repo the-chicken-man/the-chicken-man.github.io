@@ -21,49 +21,7 @@
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
         }
     
-        ::-webkit-scrollbar {
-            width: 12px;
-        }
-    
-        ::-webkit-scrollbar-track {
-            background: #2a2a2a;
-            border-radius: 10px;
-        }
-    
-        ::-webkit-scrollbar-thumb {
-            background: linear-gradient(45deg, #555, #888);
-            border-radius: 10px;
-            transition: background 0.3s, transform 0.3s;
-        }
-    
-        ::-webkit-scrollbar-thumb:hover {
-            background: linear-gradient(45deg, #888, #aaa);
-            transform: scale(1.1);
-        }
-    
-        @keyframes pop-out {
-            0% {
-                transform: scale(1);
-            }
-            50% {
-                transform: scale(1.1);
-            }
-            100% {
-                transform: scale(1);
-            }
-        }
-
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-            }
-            50% {
-                transform: scale(1.05);
-            }
-            100% {
-                transform: scale(1);
-            }
-        }
+       
     
         
     
@@ -73,28 +31,6 @@
     
         
     
-        .title {
-            text-align: center;
-            font-size: 58px;
-            background: linear-gradient(270deg, yellow, yellow, yellow, yellow, yellow);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-size: 600% 600%;
-            animation: gradient 8s ease infinite;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-            margin: 20px 0;
-            letter-spacing: 1px;
-            filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
-            border-radius: 10px;
-            padding: 10px 20px;
-            backdrop-filter: blur(5px);
-            transition: transform 0.3s ease, color 0.3s ease;
-        }
-
-        .title:hover {
-            transform: scale(1.05);
-            color: rgba(255, 255, 255, 0.8);
-        }
     
         @keyframes gradient {
             0% { background-position: 0% 50%; }
@@ -169,38 +105,11 @@
     
        
     
-        .select-button {
-            position: relative;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            color: white;
-            background-color: transparent; 
-            border: 3px solid transparent; 
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-            overflow: hidden;
-            transition: transform 0.3s ease;
-            animation: none;
-        }
-
-        .select-button:hover {
-            transform: scale(1.1);
-            animation: rainbowGlow 1.5s infinite; 
-            z-index: 1;
-        }
-    
-        .navbar { 
-            background: linear-gradient(90deg, #1a73e8 , #0d47a1); 
-            padding: 15px; 
-            display: flex; 
-            gap: 10px; 
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-        }
     
         .url-bar { 
             flex-grow: 1; 
             padding: 8px; 
-            border-radius: 24px; 
+            border-radius: 5px; 
             border: none; 
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
             transition: box-shadow 0.3s;
