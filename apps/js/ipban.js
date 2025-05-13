@@ -1,5 +1,5 @@
 
-  const bannedIPs = ["//nothingyet"];
+  const bannedIPs = ["164.92.9.26"];
 
   fetch("https://api.ipify.org?format=json")
     .then(res => res.json())
