@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+
+  h1, h2 {
+    margin: 0;
+    padding: 20px 20px;
+    text-align: center;
+  }
+</style>
+  
+<link rel="stylesheet" href="os-style.css">
+<link rel="icon" type="image/x-icon" href="./Chicken.png">
+<meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+/>
+<title>ChickenOS</title>
+<meta
+  name="description"
+  content="ChickenOS is an online OS with games, files, Proxies,browsers and more"
+/>
+<meta
+  name="keywords"
+  content="Browser, web OS, ChickenOS, service workers, games, unblock, free web proxy, proxy list, proxy sites, un block chromebook, online proxy, proxy server, proxysite, proxy youtube, bypass securly, bypass iboss, bypass lightspeed filter, holy unblocker, chromebooks, titanium network, unblock youtube, youtube proxy, unblocked youtube, youtube unblocked, unblocked games, chickenOS"
+/>
+<meta
+  name="theme-color"
+  media="(prefers-color-scheme: dark)"
+  content="#000000"
+/>
+<meta name="googlebot" content="index, follow, snippet" />
+<script src="js/ipban.js"></script>
+<h1>ChickenOS TV</h1>
+  <div class="sigma-btn" id="channelListforchickentv"></div>
+  <video id="video" controls autoplay></video>
+
+  <script>
+    const channels = [
+{ name: "Antique Roadshow", url: "https://bbc-antiquesroadshowuk-1-us.xumo.wurl.tv/playlist.m3u8" },
+ { name: "Family Fued", url: "https://amg00145-amg00145c3-xumo-us-3802.playouts.now.amagi.tv/playlist.m3u8" },
+  { name: "Fox Sports", url: "https://amg02855-foxsports-amg02855c1-xumo-us-1755.playouts.now.amagi.tv/Fox-Sports-AmazonNews/playlist.m3u8" },
+  { name: "Fox Weather", url: "https://amg01542-foxweatherllc-foxweather-xumo-ve91o.amagi.tv/playlist.m3u8" },
+  { name: "I Heart Radio Hip Hop", url: "https://iheart-iheartthebeat-1-us.xumo.wurl.tv/playlist.m3u8" },
+  { name: "I Heart Radio Alternative", url: "https://iheart-iheartaltradio-1-us.xumo.wurl.tv/playlist.m3u8" },
+  { name: "Denver News", url: "https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8" },
+   { name: "Doctor Who", url: "https://aegis-cloudfront-1.tubi.video/7e9ef0f5-4d13-4083-aa3f-9375e652a4c9/playlist.m3u8" },
+   { name: "Western Movies", url: "https://bozztv.com/gusa/gusa-tvswesternmovies/index.m3u8" },
+   { name: "Quiz Shows", url: "https://bozztv.com/gusa/gusa-tvsgameshow/index.m3u8" },
+   { name: "Old Movies", url: "https://bozztv.com/gusa/gusa-tvsNostalgiaMovies/index.m3u8" },
+   { name: "Favorite Movies", url: "https://bozztv.com/gusa/gusa-tvsdriveinmovie/index.m3u8" },
+   { name: "Comedy (old)", url: "https://bozztv.com/gusa/gusa-tvscomedy/index.m3u8" },
+   { name: "Dog whisperer with Cesar Millan", url: "https://amg01201-amg01201c30-cineverse-us-3100.playouts.now.amagi.tv/playlist/amg01201-cinedigmentertainment-dogwhispererwithcesarmilan-cineverseus/playlist.m3u8" },
+   { name: "Funniest Videos", url: "https://a-cdn.klowdtv.com/live3/alwaysfunny_720p/playlist.m3u8" },
+     
+    ];
+
+    const video = document.getElementById('video');
+    const list = document.getElementById('channelsforchickentv');
+
+    function playChannel(url) {
+      if (Hls.isSupported()) {
+        const hls = new Hls();
+        hls.loadSource(url);
+        hls.attachMedia(video);
+        hls.on(Hls.Events.MANIFEST_PARSED, () => {
+          video.play();
+        });
+      } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = url;
+        video.play();
+      } else {
+        alert("Your browser does not support HLS playback.");
+      }
+    }
+
+    channels.forEach(ch => {
+      const btn = document.createElement('button');
+      btn.textContent = ch.name;
+      btn.onclick = () => playChannel(ch.url);
+      list.appendChild(btn);
+    });
+  </script>
+
+
+
+</head>
+<body>
+
+  <a href="files.html"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/folder-invoices--v1.png" alt="File Explorer"></a>
+   <a href="browse.html"><img src="https://img.icons8.com/?size=100&id=123437&format=png&color=ffffff" alt="Browser"></a>
+   <a href="settings.html"><img src="https://img.icons8.com/?size=100&id=364&format=png&color=ffffff" alt="Settings"></a>
+   <a href="gxmes.html"><img src="https://img.icons8.com/?size=100&id=15888&format=png&color=ffffff" alt="Games"></a>
+   <a href="home.html"><img src="https://img.icons8.com/?size=100&id=2719&format=png&color=ffffff" alt="Home"></a>
+   <a href="tools.html"><img src="https://img.icons8.com/?size=100&id=HZ5SrBVYXYO0&format=png&color=ffffff" alt="Tools"></a>
+   <a href="forum.html"><img src="https://img.icons8.com/?size=100&id=122815&format=png&color=ffffff" alt="Forumimg"></a>
+    </div>
+    
+    <div class="clock" id="clock">00:00</div>
+  </div>
+
+  <script src="js/clock.js"></script>
+   
+  
+
+</body>
+</html>
