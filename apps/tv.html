@@ -1,41 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<style>
-
-  h1, h2 {
-    margin: 0;
-    padding: 20px 20px;
-    text-align: center;
-  }
-</style>
-  
-<link rel="stylesheet" href="os-style.css">
-<link rel="icon" type="image/x-icon" href="./Chicken.png">
-<meta charset="utf-8" />
-<meta
-  name="viewport"
-  content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-/>
-<title>ChickenOS</title>
-<meta
-  name="description"
-  content="ChickenOS is an online OS with games, files, Proxies,browsers and more"
-/>
-<meta
-  name="keywords"
-  content="Browser, web OS, ChickenOS, service workers, games, unblock, free web proxy, proxy list, proxy sites, un block chromebook, online proxy, proxy server, proxysite, proxy youtube, bypass securly, bypass iboss, bypass lightspeed filter, holy unblocker, chromebooks, titanium network, unblock youtube, youtube proxy, unblocked youtube, youtube unblocked, unblocked games, chickenOS"
-/>
-<meta
-  name="theme-color"
-  media="(prefers-color-scheme: dark)"
-  content="#000000"
-/>
-<meta name="googlebot" content="index, follow, snippet" />
-<script src="js/ipban.js"></script>
-<style> body { background: #000000; color: yellow; font-family: Courier, monospace; text-align: center; 
+  <meta charset="UTF-8" />
+  <title>ChickenOS</title>
+  <link rel="stylesheet" href="os-style.css">
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <style>
+    body { background: #000000; color: yellow; font-family: Courier, monospace; text-align: center; }
     .channel-list { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; padding: 20px; }
- button {
+   button {
   background-color: black;
   border: 2px solid yellow;
   color: yellow;
@@ -56,12 +29,12 @@ button:hover {
   box-shadow: 0 0 20px yellow;
   text-shadow: none;
 }
-</style>
-
+    video { width: 80%; margin: 20px auto; display: block; border: 3px solid white; border-radius: 10px; }
+  </style>
 </head>
 <body>
-    <h1>ChickenOS TV</h1>
-  <div class="channel-list" id="channelListforchickentv"></div>
+  <h1>ChickenOS TV</h1>
+  <div class="channel-list" id="channelList"></div>
   <video id="video" controls autoplay></video>
 
   <script>
@@ -85,7 +58,7 @@ button:hover {
     ];
 
     const video = document.getElementById('video');
-    const list = document.getElementById('channelsforchickentv');
+    const list = document.getElementById('channelList');
 
     function playChannel(url) {
       if (Hls.isSupported()) {
@@ -110,22 +83,19 @@ button:hover {
       list.appendChild(btn);
     });
   </script>
- <div class="taskbar">
+  <div class="taskbar">
+    
     <div class="taskbar-icons">
-      <a href="files.html"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/folder-invoices--v1.png" alt="File Explorer"></a>
-      <a href="browse.html"><img src="https://img.icons8.com/?size=100&id=123437&format=png&color=ffffff" alt="Browser"></a>
-      <a href="settings.html"><img src="https://img.icons8.com/?size=100&id=364&format=png&color=ffffff" alt="Settings"></a>
-      <a href="gxmes.html"><img src="https://img.icons8.com/?size=100&id=15888&format=png&color=ffffff" alt="Games"></a>
-      <a href="home.html"><img src="https://img.icons8.com/?size=100&id=2719&format=png&color=ffffff" alt="Home"></a>
-      <a href="tools.html"><img src="https://img.icons8.com/?size=100&id=HZ5SrBVYXYO0&format=png&color=ffffff" alt="Tools"></a>
-      <a href="forum.html"><img src="https://img.icons8.com/?size=100&id=122815&format=png&color=ffffff" alt="Forumimg"></a>
+  <a href="files.html"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/folder-invoices--v1.png" alt="File Explorer"></a>
+   <a href="browse.html"><img src="https://img.icons8.com/?size=100&id=123437&format=png&color=ffffff" alt="Browser"></a>
+   <a href="settings.html"><img src="https://img.icons8.com/?size=100&id=364&format=png&color=ffffff" alt="Settings"></a>
+   <a href="gxmes.html"><img src="https://img.icons8.com/?size=100&id=15888&format=png&color=ffffff" alt="Games"></a>
+   <a href="home.html"><img src="https://img.icons8.com/?size=100&id=2719&format=png&color=ffffff" alt="Home"></a>
+   <a href="tools.html"><img src="https://img.icons8.com/?size=100&id=HZ5SrBVYXYO0&format=png&color=ffffff" alt="Tools"></a>
+   <a href="forum.html"><img src="https://img.icons8.com/?size=100&id=122815&format=png&color=ffffff" alt="Forumimg"></a>
     </div>
+    
     <div class="clock" id="clock">00:00</div>
   </div>
- 
-  <script src="js/clock.js"></script>
-   
-  
-
 </body>
 </html>
