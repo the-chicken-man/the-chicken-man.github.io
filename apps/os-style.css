@@ -58,24 +58,26 @@ h1 {
 
 .sigma-btn {
   background-color: black;
-  border: 2px solid yellow;
-  color: yellow;
-  padding: 5px 10px;
-  text-align: center;
-  display: inline-block;
-  font-size: 20px;
-  font-family: 'Share Tech Mono', monospace;
-  transition: all 0.3s ease;
-  cursor: pointer;
-  text-shadow: 0 0 5px yellow;
-  box-shadow: 0 0 10px yellow inset;
+border: 2px solid yellow;
+color: yellow;
+padding: 5px 10px;
+text-align: center;
+display: inline-block;
+font-size: 20px;
+font-family: 'Share Tech Mono', monospace;
+transition: all 0.3s ease;
+cursor: pointer;
+text-shadow: 0 0 5px yellow;
+box-shadow: 0 0 10px yellow inset;
 }
+
 
 .sigma-btn:hover {
   background-color: yellow;
-  color: black;
-  box-shadow: 0 0 20px yellow;
-  text-shadow: none;
+color: black;
+box-shadow: 0 0 20px yellow;
+text-shadow: none;
+}
 }
 h1, h2 {
     margin: 0;
