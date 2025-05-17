@@ -31,12 +31,18 @@
    <iframe id="vm" width="100%" height="600" allow="fullscreen" frameborder="0"></iframe>
 
 <script>
-  fetch("/api/createRoom")
-    .then(res => res.json())
-    .then(data => {
-      document.getElementById("vm").src = data.url;
-    })
-    .catch(err => console.error("Error:", err));
+ fetch("/api/createRoom")
+  .then(res => {
+    if (!res.ok) throw new Error("Failed to create room");
+    return res.json();
+  })
+  .then(data => {
+    document.getElementById("vm").src = data.url;
+  })
+  .catch(err => {
+    console.error("Error creating room:", err);
+  });
+
 </script>
 
     
