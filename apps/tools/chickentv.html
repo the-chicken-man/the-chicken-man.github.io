@@ -6,10 +6,9 @@
   <link rel="stylesheet" href="os-style.css">
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <style>
-    body { background: #000000; color: yellow; font-family: Courier, monospace; text-align: center; overflow-y: scroll; }
+    body { background: #000000; color: yellow; font-family: Courier, monospace; text-align: center; }
     .channel-list { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; padding: 20px;
-  max-width: 1000px;
-  margin: 0 auto;
+  
 }
  }
    button {
@@ -33,18 +32,16 @@ button:hover {
   box-shadow: 0 0 20px yellow;
   text-shadow: none;
 }
-#wrapper {
-  padding: 20px;
-}
+
     video { width: 80%; margin: 20px auto; display: block; border: 3px solid white; border-radius: 10px; }
   </style>
 </head>
 <body>
-   <div id="wrapper">
+  
   <h1>ChickenOS TV</h1>
   <div class="channel-list" id="channelList"></div>
   <video id="video" controls autoplay></video>
-</div>
+
   <script>
     const channels = [
 { name: "Antique Roadshow", url: "https://bbc-antiquesroadshowuk-1-us.xumo.wurl.tv/playlist.m3u8" },
