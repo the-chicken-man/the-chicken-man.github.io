@@ -60,12 +60,13 @@ text-align: center;
 background-color: black;
 border: 2px solid yellow;
 color: yellow;
+padding: 5px 10px;
 text-align: center;
 display: inline-block;
 font-size: 20px;
 font-family: 'Courier', monospace;
 transition: all 0.3s ease;
-cursor: pointer;
+cursor:crosshair;
 text-shadow: 0 0 5px yellow;
 box-shadow: 0 0 10px yellow inset;
 }
