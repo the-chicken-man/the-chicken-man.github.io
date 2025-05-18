@@ -31,13 +31,13 @@ body {
     font-weight: bold;
   }
 
-  .taskbar-icons {
+  .cooliconsyeheyeh {
     display: flex;
     gap: 10px;
     align-items: center;
   }
 
-  .taskbar-icons img {
+  .cooliconsyeheyeh img {
     width: 20px;
     height: 20px;
     cursor: pointer;
@@ -52,7 +52,7 @@ color: yellow;
 font-family: Courier New, monospace;;
 }
 h1 {
-font-family: 'Share Tech Mono', monospace;
+font-family: 'Courier', monospace;
 text-align: center;
 }
 
@@ -64,7 +64,7 @@ padding: 5px 10px;
 text-align: center;
 display: inline-block;
 font-size: 20px;
-font-family: 'Share Tech Mono', monospace;
+font-family: 'Courier', monospace;
 transition: all 0.3s ease;
 cursor: pointer;
 text-shadow: 0 0 5px yellow;
