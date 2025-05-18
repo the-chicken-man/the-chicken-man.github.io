@@ -5,9 +5,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background: #1e1e2f;
-    font-family: sans-serif;
-    color: white;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
   }
 
   .taskbar {
