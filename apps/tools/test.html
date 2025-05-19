@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Audius Music Player</title>
+<style>body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  background: #00f2a9;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+#results {
+  margin-top: 30px;
+}
+ </style>
+</head>
+<body>
+  <h1>🎧 Audius Music Player</h1>
+
+  <input type="text" id="searchInput" placeholder="Search for music...">
+  <button onclick="searchSongs()">Search</button>
+
+  <div id="results"></div>
+
+  <audio id="player" controls></audio>
+
+  <script>async function searchSongs() {
+  const query = document.getElementById("searchInput").value;
+  const resultsDiv = document.getElementById("results");
+  const player = document.getElementById("player");
+
+  resultsDiv.innerHTML = "Loading...";
+
+  const res = await fetch(`https://discoveryprovider.audius.co/v1/tracks/search?query=${encodeURIComponent(query)}&limit=5`);
+  const data = await res.json();
+
+  resultsDiv.innerHTML = "";
+
+  data.data.forEach(track => {
+    const trackEl = document.createElement("div");
+    trackEl.innerHTML = `
+      <p><strong>${track.title}</strong> by ${track.user.name}</p>
+      <button onclick="playTrack('${track.stream_url}')">Play</button>
+    `;
+    resultsDiv.appendChild(trackEl);
+  });
+}
+
+function playTrack(url) {
+  const player = document.getElementById("player");
+  player.src = url + "?client_id=YOUR_CLIENT_ID"; // We’ll talk about this next
+  player.play();
+}
+const CLIENT_ID = "u6H3oC0L7NHRR5o4KdLYFX7u5ZN3Uu6F"; // Safe public one
+
+player.src = url + "?client_id=" + CLIENT_ID;
+</script>
+</body>
+</html>
