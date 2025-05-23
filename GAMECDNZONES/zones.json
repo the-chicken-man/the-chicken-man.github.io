@@ -1,0 +1,2536 @@
+[
+  {
+    "id": -1,
+    "name": "[!] SUGGEST GAMES .gg/NAFw4ykZ7n",
+    "cover": "{COVER_URL}/dc.png",
+    "url": "https://discord.gg/NAFw4ykZ7n"
+  },
+  {
+    "id": 0,
+    "name": "Bowmasters",
+    "cover": "{COVER_URL}/0.png",
+    "url": "{HTML_URL}/0.html",
+    "author": "Azur Games, Playgendary",
+    "authorLink": "https://azurgames.com"
+  },
+  {
+    "id": 1,
+    "name": "OvO",
+    "cover": "{COVER_URL}/1.png",
+    "url": "{HTML_URL}/1.html",
+    "author": "Dedra Games",
+    "authorLink": "https://dedragames.com"
+  },
+  {
+    "id": 2,
+    "name": "OvO 2",
+    "cover": "{COVER_URL}/2.png",
+    "url": "{HTML_URL}/2.html",
+    "author": "Dedra Games",
+    "authorLink": "https://dedragames.com"
+  },
+  {
+    "id": 3,
+    "name": "OvO 3 Dimensions",
+    "cover": "{COVER_URL}/3.png",
+    "url": "{HTML_URL}/3.html",
+    "author": "Dedra Games",
+    "authorLink": "https://dedragames.com"
+  },
+  {
+    "id": 4,
+    "name": "Gladihoppers",
+    "cover": "{COVER_URL}/4.png",
+    "url": "{HTML_URL}/4.html",
+    "author": "Dreamon Studios",
+    "authorLink": "https://dreamonstudios.itch.io/gladihoppers"
+  },
+  {
+    "id": 5,
+    "name": "Ice Dodo",
+    "cover": "{COVER_URL}/5.png",
+    "url": "{HTML_URL}/5.html",
+    "author": "Onionfist Studio",
+    "authorLink": "https://onionfist.com"
+  },
+  {
+    "id": 6,
+    "name": "Block Blast",
+    "cover": "{COVER_URL}/6.png",
+    "url": "{HTML_URL}/6.html",
+    "author": "reunbozdo",
+    "authorLink": "https://reunbozdo.github.io"
+  },
+  {
+    "id": 7,
+    "name": "Jetpack Joyride",
+    "cover": "{COVER_URL}/7.png",
+    "url": "{HTML_URL}/7.html",
+    "author": "Halfbrick Studios",
+    "authorLink": "https://www.halfbrick.com"
+  },
+  {
+    "id": 8,
+    "name": "Friday Night Funkin",
+    "cover": "{COVER_URL}/8.png",
+    "url": "{HTML_URL}/8.html",
+    "author": "ninja-muffin24",
+    "authorLink": "https://ninja-muffin24.itch.io/funkin"
+  },
+  {
+    "id": 9,
+    "name": "Sprunki",
+    "cover": "{COVER_URL}/9.png",
+    "url": "{HTML_URL}/9.html",
+    "author": "NyankoBfLol",
+    "authorLink": "https://www.cocrea.world/@NyankoBfLmao"
+  },
+  {
+    "id": 10,
+    "name": "Temple Run 2",
+    "cover": "{COVER_URL}/10.png",
+    "url": "{HTML_URL}/10.html",
+    "author": "Imangi STUDIOS",
+    "authorLink": "https://imangistudios.com"
+  },
+  {
+    "id": 11,
+    "name": "Stickman Hook",
+    "cover": "{COVER_URL}/11.png",
+    "url": "{HTML_URL}/11.html",
+    "author": "Madbox",
+    "authorLink": "https://madbox.io"
+  },
+  {
+    "id": 12,
+    "name": "Subway Surfers: San Francisco",
+    "cover": "{COVER_URL}/12.png",
+    "url": "{HTML_URL}/12.html",
+    "author": "SYBO",
+    "authorLink": "https://sybogames.com"
+  },
+  {
+    "id": 13,
+    "name": "Attack Hole",
+    "cover": "{COVER_URL}/13.png",
+    "url": "{HTML_URL}/13.html",
+    "author": "Homa Games",
+    "authorLink": "https://www.homagames.com"
+  },
+  {
+    "id": 14,
+    "name": "Bridge Race",
+    "cover": "{COVER_URL}/14.png",
+    "url": "{HTML_URL}/14.html",
+    "author": "QubicGames",
+    "authorLink": "https://qubicgames.com"
+  },
+  {
+    "id": 15,
+    "name": "Color Water Sort 3D",
+    "cover": "{COVER_URL}/15.png",
+    "url": "{HTML_URL}/15.html",
+    "author": "Tapnation",
+    "authorLink": "https://www.tap-nation.io"
+  },
+  {
+    "id": 16,
+    "name": "Hide N Seek",
+    "cover": "{COVER_URL}/16.png",
+    "url": "{HTML_URL}/16.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 17,
+    "name": "Magic Tiles 3",
+    "cover": "{COVER_URL}/17.png",
+    "url": "{HTML_URL}/17.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 18,
+    "name": "Stacky Dash",
+    "cover": "{COVER_URL}/18.png",
+    "url": "{HTML_URL}/18.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 19,
+    "name": "Supreme Duelist",
+    "cover": "{COVER_URL}/19.png",
+    "url": "{HTML_URL}/19.html",
+    "author": "Neron's Brother",
+    "authorLink": "https://neronsbrother.com"
+  },
+  {
+    "id": 20,
+    "name": "Tall Man Run",
+    "cover": "{COVER_URL}/20.png",
+    "url": "{HTML_URL}/20.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 21,
+    "name": "Turbo Stars",
+    "cover": "{COVER_URL}/21.png",
+    "url": "{HTML_URL}/21.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 22,
+    "name": "Mob Control HTML5",
+    "cover": "{COVER_URL}/22.png",
+    "url": "{HTML_URL}/22.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 23,
+    "name": "Pou",
+    "cover": "{COVER_URL}/23.png",
+    "url": "{HTML_URL}/23.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 24,
+    "name": "Crossy Road",
+    "cover": "{COVER_URL}/24.png",
+    "url": "{HTML_URL}/24.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 25,
+    "name": "Basket Battle",
+    "cover": "{COVER_URL}/25.png",
+    "url": "{HTML_URL}/25.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 26,
+    "name": "Amaze",
+    "cover": "{COVER_URL}/26.png",
+    "url": "{HTML_URL}/26.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 27,
+    "name": "Geometry Dash Lite",
+    "cover": "{COVER_URL}/27.png",
+    "url": "{HTML_URL}/27.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 28,
+    "name": "Basketball Frvr",
+    "cover": "{COVER_URL}/28.png",
+    "url": "{HTML_URL}/28.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 29,
+    "name": "Bazooka Boy",
+    "cover": "{COVER_URL}/29.png",
+    "url": "{HTML_URL}/29.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 30,
+    "name": "Bottle Jump 3D",
+    "cover": "{COVER_URL}/30.png",
+    "url": "{HTML_URL}/30.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 31,
+    "name": "Color Match",
+    "cover": "{COVER_URL}/31.png",
+    "url": "{HTML_URL}/31.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 32,
+    "name": "Dig Deep",
+    "cover": "{COVER_URL}/32.png",
+    "url": "{HTML_URL}/32.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 33,
+    "name": "Retro Bowl",
+    "cover": "{COVER_URL}/33.png",
+    "url": "{HTML_URL}/33.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 34,
+    "name": "Retro Bowl College",
+    "cover": "{COVER_URL}/34.png",
+    "url": "{HTML_URL}/34.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 35,
+    "name": "Drive Mad",
+    "cover": "{COVER_URL}/35.png",
+    "url": "{HTML_URL}/35.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 36,
+    "name": "Monster Tracks",
+    "cover": "{COVER_URL}/36.png",
+    "url": "{HTML_URL}/36.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 37,
+    "name": "Gobble",
+    "cover": "{COVER_URL}/37.png",
+    "url": "{HTML_URL}/37.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 38,
+    "name": "Five Nights at Freddy's",
+    "cover": "{COVER_URL}/38.png",
+    "url": "{HTML_URL}/38.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 39,
+    "name": "Five Nights at Freddy's 2",
+    "cover": "{COVER_URL}/39.png",
+    "url": "{HTML_URL}/39.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 40,
+    "name": "Five Nights at Freddy's 3",
+    "cover": "{COVER_URL}/40.png",
+    "url": "{HTML_URL}/40.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 41,
+    "name": "Five Nights at Freddy's 4",
+    "cover": "{COVER_URL}/41.png",
+    "url": "{HTML_URL}/41.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 42,
+    "name": "Road of Fury",
+    "cover": "{COVER_URL}/42.png",
+    "url": "{HTML_URL}/42.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 43,
+    "name": "Driven Wild",
+    "cover": "{COVER_URL}/43.png",
+    "url": "{HTML_URL}/43.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 44,
+    "name": "Ragdoll Hit",
+    "cover": "{COVER_URL}/44.png",
+    "url": "{HTML_URL}/44.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 45,
+    "name": "Vex 1",
+    "cover": "{COVER_URL}/45.png",
+    "url": "{HTML_URL}/45.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 46,
+    "name": "Vex 2",
+    "cover": "{COVER_URL}/46.png",
+    "url": "{HTML_URL}/46.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 47,
+    "name": "Vex 3",
+    "cover": "{COVER_URL}/47.png",
+    "url": "{HTML_URL}/47.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 48,
+    "name": "Vex 3 XMAS",
+    "cover": "{COVER_URL}/48.png",
+    "url": "{HTML_URL}/48.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 49,
+    "name": "Vex 4",
+    "cover": "{COVER_URL}/49.png",
+    "url": "{HTML_URL}/49.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 50,
+    "name": "Vex 5",
+    "cover": "{COVER_URL}/50.png",
+    "url": "{HTML_URL}/50.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 51,
+    "name": "Vex 6",
+    "cover": "{COVER_URL}/51.png",
+    "url": "{HTML_URL}/51.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 52,
+    "name": "Vex 7",
+    "cover": "{COVER_URL}/52.png",
+    "url": "{HTML_URL}/52.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 53,
+    "name": "Vex 8",
+    "cover": "{COVER_URL}/53.png",
+    "url": "{HTML_URL}/53.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 54,
+    "name": "Vex Challenges",
+    "cover": "{COVER_URL}/54.png",
+    "url": "{HTML_URL}/54.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 55,
+    "name": "Vex X3M",
+    "cover": "{COVER_URL}/55.png",
+    "url": "{HTML_URL}/55.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 56,
+    "name": "Vex X3M 2",
+    "cover": "{COVER_URL}/56.png",
+    "url": "{HTML_URL}/56.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 57,
+    "name": "Monkey Mart",
+    "cover": "{COVER_URL}/57.png",
+    "url": "{HTML_URL}/57.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 58,
+    "name": "1v1.LoL",
+    "cover": "{COVER_URL}/58.png",
+    "url": "{HTML_URL}/58.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 59,
+    "name": "A Dance of Fire and Ice",
+    "cover": "{COVER_URL}/59.png",
+    "url": "{HTML_URL}/59.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 60,
+    "name": "Achievement Unlocked",
+    "cover": "{COVER_URL}/60.png",
+    "url": "{HTML_URL}/60.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 61,
+    "name": "Achievement Unlocked 2",
+    "cover": "{COVER_URL}/61.png",
+    "url": "{HTML_URL}/61.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 62,
+    "name": "Achievement Unlocked 3",
+    "cover": "{COVER_URL}/62.png",
+    "url": "{HTML_URL}/62.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 63,
+    "name": "Angry Birds",
+    "cover": "{COVER_URL}/63.png",
+    "url": "{HTML_URL}/63.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 64,
+    "name": "Backrooms",
+    "cover": "{COVER_URL}/64.png",
+    "url": "{HTML_URL}/64.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 65,
+    "name": "Baldi's Basics",
+    "cover": "{COVER_URL}/65.png",
+    "url": "{HTML_URL}/65.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 66,
+    "name": "Basket Random",
+    "cover": "{COVER_URL}/66.png",
+    "url": "{HTML_URL}/66.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 67,
+    "name": "Big Tower Tiny Square",
+    "cover": "{COVER_URL}/67.png",
+    "url": "{HTML_URL}/67.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 68,
+    "name": "Big NEON Tower Tiny Square",
+    "cover": "{COVER_URL}/68.png",
+    "url": "{HTML_URL}/68.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 69,
+    "name": "Big ICE Tower Tiny Square",
+    "cover": "{COVER_URL}/69.png",
+    "url": "{HTML_URL}/69.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 70,
+    "name": "BitLife",
+    "cover": "{COVER_URL}/70.png",
+    "url": "{HTML_URL}/70.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 71,
+    "name": "Bloons TD",
+    "cover": "{COVER_URL}/71.png",
+    "url": "{HTML_URL}/71.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 72,
+    "name": "Bloons TD 2",
+    "cover": "{COVER_URL}/72.png",
+    "url": "{HTML_URL}/72.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 73,
+    "name": "Bloons TD 3",
+    "cover": "{COVER_URL}/73.png",
+    "url": "{HTML_URL}/73.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 74,
+    "name": "Bloons TD 4",
+    "cover": "{COVER_URL}/74.png",
+    "url": "{HTML_URL}/74.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 75,
+    "name": "Bloons TD 5",
+    "cover": "{COVER_URL}/75.png",
+    "url": "{HTML_URL}/75.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 76,
+    "name": "Bob The Robber 2",
+    "cover": "{COVER_URL}/76.png",
+    "url": "{HTML_URL}/76.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 77,
+    "name": "Boxing Random",
+    "cover": "{COVER_URL}/77.png",
+    "url": "{HTML_URL}/77.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 78,
+    "name": "Burrito Bison",
+    "cover": "{COVER_URL}/78.png",
+    "url": "{HTML_URL}/78.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 79,
+    "name": "Cannon Basketball",
+    "cover": "{COVER_URL}/79.png",
+    "url": "{HTML_URL}/79.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 80,
+    "name": "Cannon Basketball 2",
+    "cover": "{COVER_URL}/80.png",
+    "url": "{HTML_URL}/80.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 81,
+    "name": "Cluster Rush",
+    "cover": "{COVER_URL}/81.png",
+    "url": "{HTML_URL}/81.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 82,
+    "name": "Cookie Clicker",
+    "cover": "{COVER_URL}/82.png",
+    "url": "{HTML_URL}/82.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 83,
+    "name": "Coreball",
+    "cover": "{COVER_URL}/83.png",
+    "url": "{HTML_URL}/83.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 84,
+    "name": "Cubefield",
+    "cover": "{COVER_URL}/84.png",
+    "url": "{HTML_URL}/84.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 85,
+    "name": "Cut the Rope",
+    "cover": "{COVER_URL}/85.png",
+    "url": "{HTML_URL}/85.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 86,
+    "name": "Draw Climber",
+    "cover": "{COVER_URL}/86.png",
+    "url": "{HTML_URL}/86.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 87,
+    "name": "Emulator.JS",
+    "cover": "{COVER_URL}/87.png",
+    "url": "{HTML_URL}/87.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 88,
+    "name": "Fireboy and Watergirl 2",
+    "cover": "{COVER_URL}/88.png",
+    "url": "{HTML_URL}/88.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 89,
+    "name": "Fireboy and Watergirl 3",
+    "cover": "{COVER_URL}/89.png",
+    "url": "{HTML_URL}/89.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 90,
+    "name": "Granny",
+    "cover": "{COVER_URL}/90.png",
+    "url": "{HTML_URL}/90.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 91,
+    "name": "Gunspin",
+    "cover": "{COVER_URL}/91.png",
+    "url": "{HTML_URL}/91.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 92,
+    "name": "Highway Racer 2",
+    "cover": "{COVER_URL}/92.png",
+    "url": "{HTML_URL}/92.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 93,
+    "name": "Johnny Trigger",
+    "cover": "{COVER_URL}/93.png",
+    "url": "{HTML_URL}/93.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 94,
+    "name": "Journey Downhill",
+    "cover": "{COVER_URL}/94.png",
+    "url": "{HTML_URL}/94.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 95,
+    "name": "Line Rider",
+    "cover": "{COVER_URL}/95.png",
+    "url": "{HTML_URL}/95.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 96,
+    "name": "Moto X3M",
+    "cover": "{COVER_URL}/96.png",
+    "url": "{HTML_URL}/96.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 97,
+    "name": "Moto X3M 2",
+    "cover": "{COVER_URL}/97.png",
+    "url": "{HTML_URL}/97.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 98,
+    "name": "Moto X3M 3",
+    "cover": "{COVER_URL}/98.png",
+    "url": "{HTML_URL}/98.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 99,
+    "name": "Moto X3M Spooky",
+    "cover": "{COVER_URL}/99.png",
+    "url": "{HTML_URL}/99.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 100,
+    "name": "Moto X3M Winter",
+    "cover": "{COVER_URL}/100.png",
+    "url": "{HTML_URL}/100.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 101,
+    "name": "Ninja vs EvilCorp",
+    "cover": "{COVER_URL}/101.png",
+    "url": "{HTML_URL}/101.html",
+    "author": "Rémi Vansteelandt",
+    "authorLink": "https://remvst.com"
+  },
+  {
+    "id": 102,
+    "name": "Paper.io 2",
+    "cover": "{COVER_URL}/102.png",
+    "url": "{HTML_URL}/102.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 103,
+    "name": "The World's Hardest Game",
+    "cover": "{COVER_URL}/103.png",
+    "url": "{HTML_URL}/103.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 104,
+    "name": "The World's Hardest Game 3",
+    "cover": "{COVER_URL}/104.png",
+    "url": "{HTML_URL}/104.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 105,
+    "name": "The World's Hardest Game 4",
+    "cover": "{COVER_URL}/105.png",
+    "url": "{HTML_URL}/105.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 106,
+    "name": "This Is The Only Level",
+    "cover": "{COVER_URL}/106.png",
+    "url": "{HTML_URL}/106.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 107,
+    "name": "This Is The Only Level 2",
+    "cover": "{COVER_URL}/107.png",
+    "url": "{HTML_URL}/107.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 108,
+    "name": "Tiny Fishing",
+    "cover": "{COVER_URL}/108.png",
+    "url": "{HTML_URL}/108.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 109,
+    "name": "Tomb Of The Mask",
+    "cover": "{COVER_URL}/109.png",
+    "url": "{HTML_URL}/109.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 110,
+    "name": "Toss The Turtle",
+    "cover": "{COVER_URL}/110.png",
+    "url": "{HTML_URL}/110.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 111,
+    "name": "Tube Jumpers",
+    "cover": "{COVER_URL}/111.png",
+    "url": "{HTML_URL}/111.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 112,
+    "name": "Wordle",
+    "cover": "{COVER_URL}/112.png",
+    "url": "{HTML_URL}/112.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 113,
+    "name": "Ruffle",
+    "cover": "{COVER_URL}/113.png",
+    "url": "{HTML_URL}/113.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 114,
+    "name": "2048",
+    "cover": "{COVER_URL}/114.png",
+    "url": "{HTML_URL}/114.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 115,
+    "name": "8 Ball Pool",
+    "cover": "{COVER_URL}/115.png",
+    "url": "{HTML_URL}/115.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 116,
+    "name": "Offroad Mountain Bike",
+    "cover": "{COVER_URL}/116.png",
+    "url": "{HTML_URL}/116.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 117,
+    "name": "Space Waves",
+    "cover": "{COVER_URL}/117.png",
+    "url": "{HTML_URL}/117.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 118,
+    "name": "Solar Smash",
+    "cover": "{COVER_URL}/118.png",
+    "url": "{HTML_URL}/118.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 119,
+    "name": "Snow Rider 3D",
+    "cover": "{COVER_URL}/119.png",
+    "url": "{HTML_URL}/119.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 120,
+    "name": "Fortzone Battle Royale",
+    "cover": "{COVER_URL}/120.png",
+    "url": "{HTML_URL}/120.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 121,
+    "name": "Brawl Guys.io",
+    "cover": "{COVER_URL}/121.png",
+    "url": "{HTML_URL}/121.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 122,
+    "name": "Survival Race",
+    "cover": "{COVER_URL}/122.png",
+    "url": "{HTML_URL}/122.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 123,
+    "name": "Poly Track",
+    "cover": "{COVER_URL}/123.png",
+    "url": "{HTML_URL}/123.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 124,
+    "name": "Moto X3M Pool Party",
+    "cover": "{COVER_URL}/124.png",
+    "url": "{HTML_URL}/124.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 125,
+    "name": "Granny 2",
+    "cover": "{COVER_URL}/125.png",
+    "url": "{HTML_URL}/125.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 126,
+    "name": "Granny 3",
+    "cover": "{COVER_URL}/126.png",
+    "url": "{HTML_URL}/126.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 127,
+    "name": "Fashion Battle",
+    "cover": "{COVER_URL}/127.png",
+    "url": "{HTML_URL}/127.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 128,
+    "name": "Slice it All",
+    "cover": "{COVER_URL}/128.png",
+    "url": "{HTML_URL}/128.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 129,
+    "name": "Flappy Bird",
+    "cover": "{COVER_URL}/129.png",
+    "url": "{HTML_URL}/129.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 130,
+    "name": "osu!",
+    "cover": "{COVER_URL}/130.png",
+    "url": "{HTML_URL}/130.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 131,
+    "name": "Subway Surfers: Barcelona",
+    "cover": "{COVER_URL}/131.png",
+    "url": "{HTML_URL}/131.html",
+    "author": "SYBO",
+    "authorLink": "https://sybogames.com"
+  },
+  {
+    "id": 132,
+    "name": "Subway Surfers: Beijing",
+    "cover": "{COVER_URL}/132.png",
+    "url": "{HTML_URL}/132.html",
+    "author": "SYBO",
+    "authorLink": "https://sybogames.com"
+  },
+  {
+    "id": 133,
+    "name": "Subway Surfers: Berlin",
+    "cover": "{COVER_URL}/133.png",
+    "url": "{HTML_URL}/133.html",
+    "author": "SYBO",
+    "authorLink": "https://sybogames.com"
+  },
+  {
+    "id": 134,
+    "name": "Subway Surfers: Buenos Aires",
+    "cover": "{COVER_URL}/134.png",
+    "url": "{HTML_URL}/134.html",
+    "author": "SYBO",
+    "authorLink": "https://sybogames.com"
+  },
+  {
+    "id": 135,
+    "name": "Subway Surfers: Havana",
+    "cover": "{COVER_URL}/135.png",
+    "url": "{HTML_URL}/135.html",
+    "author": "SYBO",
+    "authorLink": "https://sybogames.com"
+  },
+  {
+    "id": 136,
+    "name": "Subway Surfers: Houston",
+    "cover": "{COVER_URL}/136.png",
+    "url": "{HTML_URL}/136.html",
+    "author": "SYBO",
+    "authorLink": "https://sybogames.com"
+  },
+  {
+    "id": 137,
+    "name": "Subway Surfers: Iceland",
+    "cover": "{COVER_URL}/137.png",
+    "url": "{HTML_URL}/137.html",
+    "author": "SYBO",
+    "authorLink": "https://sybogames.com"
+  },
+  {
+    "id": 138,
+    "name": "Subway Surfers: London",
+    "cover": "{COVER_URL}/138.png",
+    "url": "{HTML_URL}/138.html",
+    "author": "SYBO",
+    "authorLink": "https://sybogames.com"
+  },
+  {
+    "id": 139,
+    "name": "Subway Surfers: Mexico",
+    "cover": "{COVER_URL}/139.png",
+    "url": "{HTML_URL}/139.html",
+    "author": "SYBO",
+    "authorLink": "https://sybogames.com"
+  },
+  {
+    "id": 140,
+    "name": "Subway Surfers: Miami",
+    "cover": "{COVER_URL}/140.png",
+    "url": "{HTML_URL}/140.html",
+    "author": "SYBO",
+    "authorLink": "https://sybogames.com"
+  },
+  {
+    "id": 141,
+    "name": "Subway Surfers: Monaco",
+    "cover": "{COVER_URL}/141.png",
+    "url": "{HTML_URL}/141.html",
+    "author": "SYBO",
+    "authorLink": "https://sybogames.com"
+  },
+  {
+    "id": 142,
+    "name": "Subway Surfers: New Orleans",
+    "cover": "{COVER_URL}/142.png",
+    "url": "{HTML_URL}/142.html",
+    "author": "SYBO",
+    "authorLink": "https://sybogames.com"
+  },
+  {
+    "id": 143,
+    "name": "Subway Surfers: St. Petersburg",
+    "cover": "{COVER_URL}/143.png",
+    "url": "{HTML_URL}/143.html",
+    "author": "SYBO",
+    "authorLink": "https://sybogames.com"
+  },
+  {
+    "id": 144,
+    "name": "Subway Surfers: Winter Holiday",
+    "cover": "{COVER_URL}/144.png",
+    "url": "{HTML_URL}/144.html",
+    "author": "SYBO",
+    "authorLink": "https://sybogames.com"
+  },
+  {
+    "id": 145,
+    "name": "Subway Surfers: Zurich",
+    "cover": "{COVER_URL}/145.png",
+    "url": "{HTML_URL}/145.html",
+    "author": "SYBO",
+    "authorLink": "https://sybogames.com"
+  },
+  {
+    "id": 146,
+    "name": "8 Ball Classic",
+    "cover": "{COVER_URL}/146.png",
+    "url": "{HTML_URL}/146.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 147,
+    "name": "Angry Birds Showdown",
+    "cover": "{COVER_URL}/147.png",
+    "url": "{HTML_URL}/147.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 148,
+    "name": "Archery World Tour",
+    "cover": "{COVER_URL}/148.png",
+    "url": "{HTML_URL}/148.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 149,
+    "name": "Ball Blast",
+    "cover": "{COVER_URL}/149.png",
+    "url": "{HTML_URL}/149.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 150,
+    "name": "Cannon Balls 3D",
+    "cover": "{COVER_URL}/150.png",
+    "url": "{HTML_URL}/150.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 151,
+    "name": "Chess Classic",
+    "cover": "{COVER_URL}/151.png",
+    "url": "{HTML_URL}/151.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 152,
+    "name": "Draw the Line",
+    "cover": "{COVER_URL}/152.png",
+    "url": "{HTML_URL}/152.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 153,
+    "name": "Flappy Dunk",
+    "cover": "{COVER_URL}/153.png",
+    "url": "{HTML_URL}/153.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 154,
+    "name": "Fork n Sausage",
+    "cover": "{COVER_URL}/154.png",
+    "url": "{HTML_URL}/154.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 155,
+    "name": "Guess Their Answer",
+    "cover": "{COVER_URL}/155.png",
+    "url": "{HTML_URL}/155.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 156,
+    "name": "Harvest.io",
+    "cover": "{COVER_URL}/156.png",
+    "url": "{HTML_URL}/156.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 157,
+    "name": "Hill Climb Racing Lite",
+    "cover": "{COVER_URL}/157.png",
+    "url": "{HTML_URL}/157.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 158,
+    "name": "Pac-Man Superfast",
+    "cover": "{COVER_URL}/158.png",
+    "url": "{HTML_URL}/158.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 159,
+    "name": "Parking Rush",
+    "cover": "{COVER_URL}/159.png",
+    "url": "{HTML_URL}/159.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 160,
+    "name": "Race Master 3D",
+    "cover": "{COVER_URL}/160.png",
+    "url": "{HTML_URL}/160.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 161,
+    "name": "State.io",
+    "cover": "{COVER_URL}/161.png",
+    "url": "{HTML_URL}/161.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 162,
+    "name": "Tower Crash 3D",
+    "cover": "{COVER_URL}/162.png",
+    "url": "{HTML_URL}/162.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 163,
+    "name": "Trivia Crack",
+    "cover": "{COVER_URL}/163.png",
+    "url": "{HTML_URL}/163.html",
+    "author": "",
+    "authorLink": ""
+  },
+  {
+    "id": 164,
+    "name": "Crazy Cattle 3D",
+    "cover": "{COVER_URL}/164.png",
+    "url": "{HTML_URL}/164-temp2.html",
+    "author": "4nn4t4t",
+    "authorLink": "https://4nn4t4t.itch.io/crazycattle3d"
+  },
+  {
+    "id": 165,
+    "name": "Cheese Chompers 3D",
+    "cover": "{COVER_URL}/165.png",
+    "url": "{HTML_URL}/165.html",
+    "author": "cheesechompers3d",
+    "authorLink": "https://cheesechompers3d.itch.io/cheese-chompers-3d"
+  },
+  {
+    "id": 166,
+    "name": "Bad Parenting 1",
+    "cover": "{COVER_URL}/166.png",
+    "url": "{HTML_URL}/166.html",
+    "author": "98corbins",
+    "authorLink": "https://98corbins.netlify.app"
+  },
+  {
+    "id": 167,
+    "name": "Blade Ball",
+    "cover": "{COVER_URL}/167.png",
+    "url": "{HTML_URL}/167.html",
+    "author": "??",
+    "authorLink": ""
+  },
+  {
+    "id": 168,
+    "name": "Blocky Snakes",
+    "cover": "{COVER_URL}/168.png",
+    "url": "{HTML_URL}/168.html",
+    "author": "Beedo Games",
+    "authorLink": "https://poki.com/en/g/blocky-snakes"
+  },
+  {
+    "id": 169,
+    "name": "Bloxorz",
+    "cover": "{COVER_URL}/169.png",
+    "url": "{HTML_URL}/169.html",
+    "author": "Damien Clarke",
+    "authorLink": "https://damienclarke.me"
+  },
+  {
+    "id": 170,
+    "name": "Big Tower Tiny Square 2",
+    "cover": "{COVER_URL}/170.png",
+    "url": "{HTML_URL}/170.html",
+    "author": "EO Interactive",
+    "authorLink": "https://apps.apple.com/my/developer/eo-interactive-ltd/id457003279"
+  },
+  {
+    "id": 171,
+    "name": "Candy Crush",
+    "cover": "{COVER_URL}/171.png",
+    "url": "{HTML_URL}/171.html",
+    "author": "King.com",
+    "authorLink": "https://www.king.com/game/candycrush"
+  },
+  {
+    "id": 172,
+    "name": "Melon Playground",
+    "cover": "{COVER_URL}/172.png",
+    "url": "{HTML_URL}/172.html",
+    "author": "playducky.com",
+    "authorLink": "https://playducky.com"
+  },
+  {
+    "id": 173,
+    "name": "Drift Hunters",
+    "cover": "{COVER_URL}/173.png",
+    "url": "{HTML_URL}/173.html",
+    "author": "Illia Kaminetskyi",
+    "authorLink": "https://ilyakaminetsky.itch.io/drift-hunters"
+  },
+  {
+    "id": 174,
+    "name": "World Box",
+    "cover": "{COVER_URL}/174.png",
+    "url": "{HTML_URL}/174.html",
+    "author": "Kendja",
+    "authorLink": "https://www.newgrounds.com/portal/view/603435"
+  },
+  {
+    "id": 175,
+    "name": "Run 1",
+    "cover": "{COVER_URL}/175.png",
+    "url": "{HTML_URL}/175.html",
+    "author": "Joseph Cloutier",
+    "authorLink": "https://player03.com"
+  },
+  {
+    "id": 176,
+    "name": "Run 2",
+    "cover": "{COVER_URL}/176.png",
+    "url": "{HTML_URL}/176.html",
+    "author": "Joseph Cloutier",
+    "authorLink": "https://player03.com"
+  },
+  {
+    "id": 177,
+    "name": "Run 3",
+    "cover": "{COVER_URL}/177.png",
+    "url": "{HTML_URL}/177.html",
+    "author": "Joseph Cloutier",
+    "authorLink": "https://player03.com"
+  },
+  {
+    "id": 178,
+    "name": "Swords and Souls",
+    "cover": "{COVER_URL}/178.png",
+    "url": "{HTML_URL}/178.html",
+    "author": "Armor Games",
+    "authorLink": "https://armorgames.com/play/17817/swords-and-souls"
+  },
+  {
+    "id": 179,
+    "name": "Soundboard",
+    "cover": "{COVER_URL}/179.png",
+    "url": "{HTML_URL}/179.html",
+    "author": "genizy",
+    "authorLink": "https://github.com/genizy/soundboard/"
+  },
+  {
+    "id": 180,
+    "name": "n-gon",
+    "cover": "{COVER_URL}/180.png",
+    "url": "{HTML_URL}/180.html",
+    "author": "landgreen",
+    "authorLink": "https://github.com/landgreen/n-gon"
+  },
+  {
+    "id": 181,
+    "name": "Minecraft 1.8.8",
+    "cover": "{COVER_URL}/181.png",
+    "url": "{HTML_URL}/181.html",
+    "author": "lax1dude",
+    "authorLink": "https://eaglercraft.com"
+  },
+  {
+    "id": 182,
+    "name": "Minecraft 1.12.2",
+    "cover": "{COVER_URL}/182.png",
+    "url": "{HTML_URL}/182.html",
+    "author": "lax1dude",
+    "authorLink": "https://eaglercraft.com"
+  },
+  {
+    "id": 183,
+    "name": "Minecraft 1.21.4",
+    "cover": "{COVER_URL}/183.png",
+    "url": "{HTML_URL}/183.html",
+    "author": "zardoy",
+    "authorLink": "https://github.com/zardoy/minecraft-web-client"
+  },
+  {
+    "id": 184,
+    "name": "Undertale",
+    "cover": "{COVER_URL}/184.png",
+    "url": "{HTML_URL}/184.html",
+    "author": "Toby Fox, BluePhoenix25",
+    "authorLink": "https://scratch.mit.edu/projects/791527350"
+  },
+  {
+    "id": 185,
+    "name": "Five Nights at Freddy's: Sister Location",
+    "cover": "{COVER_URL}/185.png",
+    "url": "{HTML_URL}/185.html",
+    "author": "Scott Cawthon",
+    "authorLink": "https://scottgames.com"
+  },
+  {
+    "id": 186,
+    "name": "Ragdoll Archers",
+    "cover": "{COVER_URL}/186.png",
+    "url": "{HTML_URL}/186.html",
+    "author": "Ericetto",
+    "authorLink": "https://www.snokido.com/author/ericetto"
+  },
+  {
+    "id": 187,
+    "name": "Papers, Please",
+    "cover": "{COVER_URL}/187.png",
+    "url": "{HTML_URL}/187.html",
+    "author": "Lucas Pope",
+    "authorLink": "https://dukope.com"
+  },
+  {
+    "id": 188,
+    "name": "Scrap Metal 3",
+    "cover": "{COVER_URL}/188.png",
+    "url": "{HTML_URL}/188.html",
+    "author": "Ciorbyn",
+    "authorLink": "https://www.ciorbynstudio.com"
+  },
+  {
+    "id": 189,
+    "name": "Doki Doki Literature Club",
+    "cover": "{COVER_URL}/189.png",
+    "url": "{HTML_URL}/189.html",
+    "author": "Team Salvato",
+    "authorLink": "https://teamsalvato.itch.io/ddlc"
+  },
+  {
+    "id": 190,
+    "name": "Five Nights at Freddy's: World",
+    "cover": "{COVER_URL}/190.png",
+    "url": "{HTML_URL}/190.html",
+    "author": "Scott Cawthon",
+    "authorLink": "https://scottgames.com"
+  },
+  {
+    "id": 191,
+    "name": "Five Nights at Freddy's: Pizza Simulator",
+    "cover": "{COVER_URL}/191.png",
+    "url": "{HTML_URL}/191.html",
+    "author": "Scott Cawthon",
+    "authorLink": "https://scottgames.com"
+  },
+  {
+    "id": 192,
+    "name": "Five Nights at Freddy's: Ultimate Custom Night",
+    "cover": "{COVER_URL}/192.png",
+    "url": "{HTML_URL}/192.html",
+    "author": "Scott Cawthon",
+    "authorLink": "https://scottgames.com"
+  },
+  {
+    "id": 193,
+    "name": "Do NOT Take This Cat Home",
+    "cover": "{COVER_URL}/193.png",
+    "url": "{HTML_URL}/193.html",
+    "author": "Pixelliminal",
+    "authorLink": "https://pixeliminal.itch.io/do-not-take-this-cat-home"
+  },
+  {
+    "id": 194,
+    "name": "People Playground",
+    "cover": "{COVER_URL}/194.png",
+    "url": "{HTML_URL}/194.html",
+    "author": "Studio Minus, 98corbins",
+    "authorLink": "https://store.steampowered.com/app/1118200/"
+  },
+  {
+    "id": 195,
+    "name": "R.E.P.O",
+    "cover": "{COVER_URL}/195.png",
+    "url": "{HTML_URL}/195.html",
+    "author": "semiwork, 98corbins",
+    "authorLink": "https://store.steampowered.com/app/3241660/"
+  },
+  {
+    "id": 196,
+    "name": "ULTRAKILL",
+    "cover": "{COVER_URL}/196.png",
+    "url": "{HTML_URL}/196.html",
+    "author": "New Blood Interactive, 98corbins",
+    "authorLink": "https://store.steampowered.com/app/1229490/"
+  },
+  {
+    "id": 197,
+    "name": "Elastic Man",
+    "cover": "{COVER_URL}/197.png",
+    "url": "{HTML_URL}/197.html",
+    "author": "David Li",
+    "authorLink": "https://david.li"
+  },
+  {
+    "id": 198,
+    "name": "Slope",
+    "cover": "{COVER_URL}/198.png",
+    "url": "{HTML_URL}/198.html",
+    "author": "coweggs",
+    "authorLink": "https://coweggs.itch.io/slope-plus"
+  },
+  {
+    "id": 199,
+    "name": "Time Shooter 1",
+    "cover": "{COVER_URL}/199.png",
+    "url": "{HTML_URL}/199.html",
+    "author": "g80g",
+    "authorLink": "https://g80g.com"
+  },
+  {
+    "id": 200,
+    "name": "Time Shooter 2",
+    "cover": "{COVER_URL}/200.png",
+    "url": "{HTML_URL}/200.html",
+    "author": "g80g",
+    "authorLink": "https://g80g.com"
+  },
+  {
+    "id": 201,
+    "name": "Time Shooter 3: SWAT",
+    "cover": "{COVER_URL}/201.png",
+    "url": "{HTML_URL}/201.html",
+    "author": "g80g",
+    "authorLink": "https://g80g.com"
+  },
+  {
+    "id": 202,
+    "name": "Carrom Clash",
+    "cover": "{COVER_URL}/202.png",
+    "url": "{HTML_URL}/202.html",
+    "author": "GameSnacks",
+    "authorLink": "https://gamesnacks.com/games/carromclash"
+  },
+  {
+    "id": 203,
+    "name": "DOOM",
+    "cover": "{COVER_URL}/203.png",
+    "url": "{HTML_URL}/203.html",
+    "author": "Id Software",
+    "authorLink": "https://www.idsoftware.com"
+  },
+  {
+    "id": 204,
+    "name": "Five Nights at Winston's",
+    "cover": "{COVER_URL}/204.png",
+    "url": "{HTML_URL}/204.html",
+    "author": "lax1dude",
+    "authorLink": "https://lax1dude.net"
+  },
+  {
+    "id": 205,
+    "name": "Buckshot Roulette",
+    "cover": "{COVER_URL}/205.png",
+    "url": "{HTML_URL}/205.html",
+    "author": "Mike Klubnika",
+    "authorLink": "https://mikeklubnika.itch.io/buckshot-roulette"
+  },
+  {
+    "id": 206,
+    "name": "Tunnel Rush",
+    "cover": "{COVER_URL}/206.png",
+    "url": "{HTML_URL}/206.html",
+    "author": "Deer Cat Games",
+    "authorLink": "http://www.deercatgames.com"
+  },
+  {
+    "id": 207,
+    "name": "Snowbattle.io",
+    "cover": "{COVER_URL}/207.png",
+    "url": "{HTML_URL}/207.html",
+    "author": "Royalec/Tokyo",
+    "authorLink": "https://google.com/search?q=Tokyo+Royalec"
+  },
+  {
+    "id": 208,
+    "name": "Rolly Vortex",
+    "cover": "{COVER_URL}/208.png",
+    "url": "{HTML_URL}/208.html",
+    "author": "Voodoo",
+    "authorLink": "https://play.google.com/store/apps/details?id=com.bdj.vortexDroid&hl=en_US"
+  },
+  {
+    "id": 209,
+    "name": "Draw the Hill",
+    "cover": "{COVER_URL}/209.png",
+    "url": "{HTML_URL}/209.html",
+    "author": "Stelennnn",
+    "authorLink": "https://play.google.com/store/apps/details?id=xyz.gameshtml5.drawathehill&hl=en_US"
+  },
+  {
+    "id": 210,
+    "name": "Dragon vs Bricks",
+    "cover": "{COVER_URL}/210.png",
+    "url": "{HTML_URL}/210.html",
+    "author": "Voodoo",
+    "authorLink": "https://voodoo.io"
+  },
+  {
+    "id": 211,
+    "name": "Death Run 3D",
+    "cover": "{COVER_URL}/211.png",
+    "url": "{HTML_URL}/211.html",
+    "author": "kevin.wang",
+    "authorLink": "https://play.google.com/store/apps/details?id=com.kevin.deathrun3d&hl=en_US"
+  },
+  {
+    "id": 212,
+    "name": "Cut the Rope",
+    "cover": "{COVER_URL}/212.png",
+    "url": "{HTML_URL}/212.html",
+    "author": "ZeptoLab",
+    "authorLink": "https://www.zeptolab.com"
+  },
+  {
+    "id": 213,
+    "name": "Cut the Rope: Time Travel",
+    "cover": "{COVER_URL}/213.png",
+    "url": "{HTML_URL}/213.html",
+    "author": "ZeptoLab",
+    "authorLink": "https://www.zeptolab.com"
+  },
+  {
+    "id": 214,
+    "name": "Cut the Rope: Holiday Gift",
+    "cover": "{COVER_URL}/214.png",
+    "url": "{HTML_URL}/214.html",
+    "author": "ZeptoLab",
+    "authorLink": "https://www.zeptolab.com"
+  },
+  {
+    "id": 215,
+    "name": "Bendy and the Ink Machine",
+    "cover": "{COVER_URL}/215.png",
+    "url": "{HTML_URL}/215.html",
+    "author": "Joey Drew Studios",
+    "authorLink": "https://www.joeydrewstudios.com/batim"
+  },
+  {
+    "id": 216,
+    "name": "That's Not My Neighbor",
+    "cover": "{COVER_URL}/216.png",
+    "url": "{HTML_URL}/216.html",
+    "author": "Nacho Games",
+    "authorLink": "https://store.steampowered.com/app/3431040/Thats_not_my_Neighbor/"
+  },
+  {
+    "id": 217,
+    "name": "Hotline Miami",
+    "cover": "{COVER_URL}/217.png",
+    "url": "{HTML_URL}/217.html",
+    "author": "Dennaton Games",
+    "authorLink": "https://store.steampowered.com/app/3431040/Thats_not_my_Neighbor/"
+  },
+  {
+    "id": 218,
+    "name": "Papa's Bakeria",
+    "cover": "{COVER_URL}/218.png",
+    "url": "{HTML_URL}/218.html",
+    "author": "Flipline Studios",
+    "authorLink": "https://www.flipline.com"
+  },
+  {
+    "id": 219,
+    "name": "Papa's Burgeria",
+    "cover": "{COVER_URL}/219.png",
+    "url": "{HTML_URL}/219.html",
+    "author": "Flipline Studios",
+    "authorLink": "https://www.flipline.com"
+  },
+  {
+    "id": 220,
+    "name": "Papa's Cheeseria",
+    "cover": "{COVER_URL}/220.png",
+    "url": "{HTML_URL}/220.html",
+    "author": "Flipline Studios",
+    "authorLink": "https://www.flipline.com"
+  },
+  {
+    "id": 221,
+    "name": "Papa's Cupcakeria",
+    "cover": "{COVER_URL}/221.png",
+    "url": "{HTML_URL}/221.html",
+    "author": "Flipline Studios",
+    "authorLink": "https://www.flipline.com"
+  },
+  {
+    "id": 222,
+    "name": "Papa's Donuteria",
+    "cover": "{COVER_URL}/222.png",
+    "url": "{HTML_URL}/222.html",
+    "author": "Flipline Studios",
+    "authorLink": "https://www.flipline.com"
+  },
+  {
+    "id": 223,
+    "name": "Papa's Freezeria",
+    "cover": "{COVER_URL}/223.png",
+    "url": "{HTML_URL}/223.html",
+    "author": "Flipline Studios",
+    "authorLink": "https://www.flipline.com"
+  },
+  {
+    "id": 224,
+    "name": "Papa's Hot Doggeria",
+    "cover": "{COVER_URL}/224.png",
+    "url": "{HTML_URL}/224.html",
+    "author": "Flipline Studios",
+    "authorLink": "https://www.flipline.com"
+  },
+  {
+    "id": 225,
+    "name": "Papa's Pancakeria",
+    "cover": "{COVER_URL}/225.png",
+    "url": "{HTML_URL}/225.html",
+    "author": "Flipline Studios",
+    "authorLink": "https://www.flipline.com"
+  },
+  {
+    "id": 226,
+    "name": "Papa's Pastaria",
+    "cover": "{COVER_URL}/226.png",
+    "url": "{HTML_URL}/226.html",
+    "author": "Flipline Studios",
+    "authorLink": "https://www.flipline.com"
+  },
+  {
+    "id": 227,
+    "name": "Papa's Pizeria",
+    "cover": "{COVER_URL}/227.png",
+    "url": "{HTML_URL}/227.html",
+    "author": "Flipline Studios",
+    "authorLink": "https://www.flipline.com"
+  },
+  {
+    "id": 228,
+    "name": "Papa's Scooperia",
+    "cover": "{COVER_URL}/228.png",
+    "url": "{HTML_URL}/228.html",
+    "author": "Flipline Studios",
+    "authorLink": "https://www.flipline.com"
+  },
+  {
+    "id": 229,
+    "name": "Papa's Sushiria",
+    "cover": "{COVER_URL}/229.png",
+    "url": "{HTML_URL}/229.html",
+    "author": "Flipline Studios",
+    "authorLink": "https://www.flipline.com"
+  },
+  {
+    "id": 230,
+    "name": "Papa's Taco Mia",
+    "cover": "{COVER_URL}/230.png",
+    "url": "{HTML_URL}/230.html",
+    "author": "Flipline Studios",
+    "authorLink": "https://www.flipline.com"
+  },
+  {
+    "id": 231,
+    "name": "Papa's Wingeria",
+    "cover": "{COVER_URL}/231.png",
+    "url": "{HTML_URL}/231.html",
+    "author": "Flipline Studios",
+    "authorLink": "https://www.flipline.com"
+  },
+  {
+    "id": 232,
+    "name": "Plants vs Zombies",
+    "cover": "{COVER_URL}/232.png",
+    "url": "{HTML_URL}/232.html",
+    "author": "PopCap Games",
+    "authorLink": "https://www.ea.com/ea-studios/popcap/plants-vs-zombies"
+  },
+  {
+    "id": 233,
+    "name": "Superhot",
+    "cover": "{COVER_URL}/233.png",
+    "url": "{HTML_URL}/233.html",
+    "author": "Superhot Team",
+    "authorLink": "https://superhotgame.com"
+  },
+  {
+    "id": 234,
+    "name": "Duck Life",
+    "cover": "{COVER_URL}/234.png",
+    "url": "{HTML_URL}/234.html",
+    "author": "Mad.com",
+    "authorLink": "https://mad.com"
+  },
+  {
+    "id": 235,
+    "name": "Duck Life 2",
+    "cover": "{COVER_URL}/235.png",
+    "url": "{HTML_URL}/235.html",
+    "author": "Mad.com",
+    "authorLink": "https://mad.com"
+  },
+  {
+    "id": 236,
+    "name": "Duck Life 3",
+    "cover": "{COVER_URL}/236.png",
+    "url": "{HTML_URL}/236.html",
+    "author": "Mad.com",
+    "authorLink": "https://mad.com"
+  },
+  {
+    "id": 237,
+    "name": "Duck Life 4",
+    "cover": "{COVER_URL}/237.png",
+    "url": "{HTML_URL}/237.html",
+    "author": "Mad.com",
+    "authorLink": "https://mad.com"
+  },
+  {
+    "id": 238,
+    "name": "Duck Life 5",
+    "cover": "{COVER_URL}/238.png",
+    "url": "{HTML_URL}/238.html",
+    "author": "Mad.com",
+    "authorLink": "https://mad.com"
+  },
+  {
+    "id": 239,
+    "name": "Red Ball",
+    "cover": "{COVER_URL}/239.png",
+    "url": "{HTML_URL}/239.html",
+    "author": "Yohoho Games",
+    "authorLink": "https://yohoho.games"
+  },
+  {
+    "id": 240,
+    "name": "Red Ball 2",
+    "cover": "{COVER_URL}/240.png",
+    "url": "{HTML_URL}/240.html",
+    "author": "Yohoho Games",
+    "authorLink": "https://yohoho.games"
+  },
+  {
+    "id": 241,
+    "name": "Red Ball 3",
+    "cover": "{COVER_URL}/241.png",
+    "url": "{HTML_URL}/241.html",
+    "author": "Yohoho Games",
+    "authorLink": "https://yohoho.games"
+  },
+  {
+    "id": 242,
+    "name": "Red Ball 4",
+    "cover": "{COVER_URL}/242.png",
+    "url": "{HTML_URL}/242.html",
+    "author": "Yohoho Games",
+    "authorLink": "https://yohoho.games"
+  },
+  {
+    "id": 243,
+    "name": "Red Ball 4 Vol. 2",
+    "cover": "{COVER_URL}/243.png",
+    "url": "{HTML_URL}/243.html",
+    "author": "Yohoho Games",
+    "authorLink": "https://yohoho.games"
+  },
+  {
+    "id": 244,
+    "name": "Red Ball 4 Vol. 3",
+    "cover": "{COVER_URL}/244.png",
+    "url": "{HTML_URL}/244.html",
+    "author": "Yohoho Games",
+    "authorLink": "https://yohoho.games"
+  },
+  {
+    "id": 245,
+    "name": "Wheely",
+    "cover": "{COVER_URL}/245.png",
+    "url": "{HTML_URL}/245.html",
+    "author": "Pegas Games",
+    "authorLink": "http://www.pegasgames.com"
+  },
+  {
+    "id": 246,
+    "name": "Wheely 2",
+    "cover": "{COVER_URL}/246.png",
+    "url": "{HTML_URL}/246.html",
+    "author": "Pegas Games",
+    "authorLink": "http://www.pegasgames.com"
+  },
+  {
+    "id": 247,
+    "name": "Wheely 3",
+    "cover": "{COVER_URL}/247.png",
+    "url": "{HTML_URL}/247.html",
+    "author": "Pegas Games",
+    "authorLink": "http://www.pegasgames.com"
+  },
+  {
+    "id": 248,
+    "name": "Wheely 4",
+    "cover": "{COVER_URL}/248.png",
+    "url": "{HTML_URL}/248.html",
+    "author": "Pegas Games",
+    "authorLink": "http://www.pegasgames.com"
+  },
+  {
+    "id": 249,
+    "name": "Wheely 5",
+    "cover": "{COVER_URL}/249.png",
+    "url": "{HTML_URL}/249.html",
+    "author": "Pegas Games",
+    "authorLink": "http://www.pegasgames.com"
+  },
+  {
+    "id": 250,
+    "name": "Wheely 6",
+    "cover": "{COVER_URL}/250.png",
+    "url": "{HTML_URL}/250.html",
+    "author": "Pegas Games",
+    "authorLink": "http://www.pegasgames.com"
+  },
+  {
+    "id": 251,
+    "name": "Wheely 7",
+    "cover": "{COVER_URL}/251.png",
+    "url": "{HTML_URL}/251.html",
+    "author": "Pegas Games",
+    "authorLink": "http://www.pegasgames.com"
+  },
+  {
+    "id": 252,
+    "name": "Wheely 8",
+    "cover": "{COVER_URL}/252.png",
+    "url": "{HTML_URL}/252.html",
+    "author": "Pegas Games",
+    "authorLink": "http://www.pegasgames.com"
+  },
+  {
+    "id": 253,
+    "name": "Chat Bot (A.|.I)",
+    "cover": "{COVER_URL}/253.png",
+    "url": "{HTML_URL}/253.html",
+    "author": "gn-math",
+    "authorLink": "https://gn-math.github.io"
+  },
+  {
+    "id": 254,
+    "name": "Balatro",
+    "cover": "{COVER_URL}/254.png",
+    "url": "{HTML_URL}/254.html",
+    "author": "LocalThunk",
+    "authorLink": "https://localthunk.com"
+  },
+  {
+    "id": 255,
+    "name": "Crazy Chicken 3D",
+    "cover": "{COVER_URL}/255.png",
+    "url": "{HTML_URL}/255.html",
+    "author": "Teasle",
+    "authorLink": "https://teasle.itch.io/crazychicken3d"
+  },
+  {
+    "id": 256,
+    "name": "Crazy Kitty 3D",
+    "cover": "{COVER_URL}/256.png",
+    "url": "{HTML_URL}/256.html",
+    "author": "Teasle",
+    "authorLink": "https://teasle.itch.io/crazykitty3d"
+  },
+  {
+    "id": 257,
+    "name": "Google Baseball",
+    "cover": "{COVER_URL}/257.png",
+    "url": "{HTML_URL}/257.html",
+    "author": "Google",
+    "authorLink": "https://google.com"
+  },
+  {
+    "id": 258,
+    "name": "A Bite at Freddy's",
+    "cover": "{COVER_URL}/258.png",
+    "url": "{HTML_URL}/258.html",
+    "author": "Garrett McKay",
+    "authorLink": "https://garrett-mckay.itch.io/a-bite-at-freddys"
+  },
+  {
+    "id": 259,
+    "name": "Class of '09",
+    "cover": "{COVER_URL}/259.png",
+    "url": "{HTML_URL}/259.html",
+    "author": "sbn3",
+    "authorLink": "https://sbn3.com"
+  },
+  {
+    "id": 260,
+    "name": "RE:RUN",
+    "cover": "{COVER_URL}/260.png",
+    "url": "{HTML_URL}/260.html",
+    "author": "DaniDev",
+    "authorLink": "https://danidev.itch.io/rerun"
+  },
+  {
+    "id": 261,
+    "name": "Fruit Ninja",
+    "cover": "{COVER_URL}/261.png",
+    "url": "{HTML_URL}/261.html",
+    "author": "Halfbrick Studios",
+    "authorLink": "https://www.halfbrick.com/games/fruit-ninja-classic"
+  },
+  {
+    "id": 262,
+    "name": "Half Life",
+    "cover": "{COVER_URL}/262.png",
+    "url": "{HTML_URL}/262.html",
+    "author": "Valve",
+    "authorLink": "https://www.valvesoftware.com/en/"
+  },
+  {
+    "id": 263,
+    "name": "Quake III Arena",
+    "cover": "{COVER_URL}/263.png",
+    "url": "{HTML_URL}/263.html",
+    "author": "Id Software",
+    "authorLink": "https://www.idsoftware.com/en"
+  },
+  {
+    "id": 264,
+    "name": "Escape Road",
+    "cover": "{COVER_URL}/264.png",
+    "url": "{HTML_URL}/264.html",
+    "author": "AzGames",
+    "authorLink": "https://azgames.io/escape-road"
+  },
+  {
+    "id": 265,
+    "name": "Escape Road 2",
+    "cover": "{COVER_URL}/265.png",
+    "url": "{HTML_URL}/265.html",
+    "author": "AzGames",
+    "authorLink": "https://azgames.io/escape-road-2"
+  },
+  {
+    "id": 266,
+    "name": "Speed Stars",
+    "cover": "{COVER_URL}/266.png",
+    "url": "{HTML_URL}/266.html",
+    "author": "Luke Doukakis",
+    "authorLink": "https://store.steampowered.com/app/1482700/Speed_Stars/"
+  },
+  {
+    "id": 267,
+    "name": "Pizza Tower",
+    "cover": "{COVER_URL}/267.png",
+    "url": "{HTML_URL}/267.html",
+    "author": "Tour De Pizza",
+    "authorLink": "https://store.steampowered.com/app/2231450/Pizza_Tower/"
+  },
+  {
+    "id": 268,
+    "name": "Bacon May Die",
+    "cover": "{COVER_URL}/268.png",
+    "url": "{HTML_URL}/268.html",
+    "author": "SnoutUp",
+    "authorLink": "https://store.steampowered.com/app/646240/Bacon_May_Die/"
+  },
+  {
+    "id": 269,
+    "name": "Bad Ice Cream",
+    "cover": "{COVER_URL}/269.png",
+    "url": "{HTML_URL}/269.html",
+    "author": "Nitrome",
+    "authorLink": "https://poki.com/en/g/bad-ice-cream"
+  },
+  {
+    "id": 270,
+    "name": "Bad Ice Cream 2",
+    "cover": "{COVER_URL}/270.png",
+    "url": "{HTML_URL}/270.html",
+    "author": "Nitrome",
+    "authorLink": "https://poki.com/en/g/bad-ice-cream-2"
+  },
+  {
+    "id": 271,
+    "name": "Bad Ice Cream 3",
+    "cover": "{COVER_URL}/271.png",
+    "url": "{HTML_URL}/271.html",
+    "author": "Nitrome",
+    "authorLink": "https://poki.com/en/g/bad-ice-cream-3"
+  },
+  {
+    "id": 272,
+    "name": "Basketball Stars",
+    "cover": "{COVER_URL}/272.png",
+    "url": "{HTML_URL}/272.html",
+    "author": "MadPuffers",
+    "authorLink": "https://poki.com/en/g/basketball-stars"
+  },
+  {
+    "id": 273,
+    "name": "BlockPost",
+    "cover": "{COVER_URL}/273.png",
+    "url": "{HTML_URL}/273.html",
+    "author": "SkullCap Studios",
+    "authorLink": "https://poki.com/en/g/blockpost"
+  },
+  {
+    "id": 274,
+    "name": "CircloO",
+    "cover": "{COVER_URL}/274.png",
+    "url": "{HTML_URL}/274.html",
+    "author": "Florian van Strien",
+    "authorLink": "https://florianvanstrien.nl"
+  },
+  {
+    "id": 275,
+    "name": "CircloO 2",
+    "cover": "{COVER_URL}/275.png",
+    "url": "{HTML_URL}/275.html",
+    "author": "Florian van Strien",
+    "authorLink": "https://florianvanstrien.nl"
+  },
+  {
+    "id": 276,
+    "name": "Drift Boss",
+    "cover": "{COVER_URL}/276.png",
+    "url": "{HTML_URL}/276.html",
+    "author": "marketjs",
+    "authorLink": "https://www.marketjs.com"
+  },
+  {
+    "id": 277,
+    "name": "Evil Glitch",
+    "cover": "{COVER_URL}/277.png",
+    "url": "{HTML_URL}/277.html",
+    "author": "agar3s",
+    "authorLink": "https://github.com/agar3s"
+  },
+  {
+    "id": 278,
+    "name": "Madalin Stunt Cars 2",
+    "cover": "{COVER_URL}/278.png",
+    "url": "{HTML_URL}/278.html",
+    "author": "Madalin Games",
+    "authorLink": "https://www.madalingames.com"
+  },
+  {
+    "id": 279,
+    "name": "Madalin Stunt Cars 3",
+    "cover": "{COVER_URL}/279.png",
+    "url": "{HTML_URL}/279.html",
+    "author": "Madalin Games",
+    "authorLink": "https://www.madalingames.com"
+  },
+  {
+    "id": 280,
+    "name": "Papery Planes",
+    "cover": "{COVER_URL}/280.png",
+    "url": "{HTML_URL}/280.html",
+    "author": "Akos Makovics",
+    "authorLink": "http://akos-makovics.com"
+  },
+  {
+    "id": 281,
+    "name": "Pixel Gun Survival",
+    "cover": "{COVER_URL}/281.png",
+    "url": "{HTML_URL}/281.html",
+    "author": "Mentolatux",
+    "authorLink": "https://www.fiverr.com/mentolatux"
+  },
+  {
+    "id": 282,
+    "name": "Protektor",
+    "cover": "{COVER_URL}/282.png",
+    "url": "{HTML_URL}/282.html",
+    "author": "rujogames",
+    "authorLink": "https://rujogames.itch.io/protektor"
+  },
+  {
+    "id": 283,
+    "name": "Rooftop Snipers",
+    "cover": "{COVER_URL}/283.png",
+    "url": "{HTML_URL}/283.html",
+    "author": "New Eich Games",
+    "authorLink": "https://www.neweichgames.com"
+  },
+  {
+    "id": 284,
+    "name": "War The Knights",
+    "cover": "{COVER_URL}/284.png",
+    "url": "{HTML_URL}/284.html",
+    "author": "BANZAI",
+    "authorLink": "https://banzai.games/en/"
+  },
+  {
+    "id": 285,
+    "name": "Basket Bros",
+    "cover": "{COVER_URL}/285.png",
+    "url": "{HTML_URL}/285.html",
+    "author": "Blue Wizard Digital",
+    "authorLink": "https://bluewizard.com"
+  },
+  {
+    "id": 286,
+    "name": "Endoparasitic",
+    "cover": "{COVER_URL}/286.png",
+    "url": "{HTML_URL}/286.html",
+    "author": "Deep Root Interactive",
+    "authorLink": "https://store.steampowered.com/app/2124780/Endoparasitic/"
+  },
+  {
+    "id": 287,
+    "name": "Riddle School",
+    "cover": "{COVER_URL}/287.png",
+    "url": "{HTML_URL}/287.html",
+    "author": "JonBro",
+    "authorLink": "https://jonbro.newgrounds.com"
+  },
+  {
+    "id": 288,
+    "name": "Riddle School 2",
+    "cover": "{COVER_URL}/288.png",
+    "url": "{HTML_URL}/288.html",
+    "author": "JonBro",
+    "authorLink": "https://jonbro.newgrounds.com"
+  },
+  {
+    "id": 289,
+    "name": "Riddle School 3",
+    "cover": "{COVER_URL}/289.png",
+    "url": "{HTML_URL}/289.html",
+    "author": "JonBro",
+    "authorLink": "https://jonbro.newgrounds.com"
+  },
+  {
+    "id": 290,
+    "name": "Riddle School 4",
+    "cover": "{COVER_URL}/290.png",
+    "url": "{HTML_URL}/290.html",
+    "author": "JonBro",
+    "authorLink": "https://jonbro.newgrounds.com"
+  },
+  {
+    "id": 291,
+    "name": "Riddle School 5",
+    "cover": "{COVER_URL}/291.png",
+    "url": "{HTML_URL}/291.html",
+    "author": "JonBro",
+    "authorLink": "https://jonbro.newgrounds.com"
+  },
+  {
+    "id": 292,
+    "name": "Riddle Transfer",
+    "cover": "{COVER_URL}/292.png",
+    "url": "{HTML_URL}/292.html",
+    "author": "JonBro",
+    "authorLink": "https://jonbro.newgrounds.com"
+  },
+  {
+    "id": 293,
+    "name": "Riddle Transfer 2",
+    "cover": "{COVER_URL}/293.png",
+    "url": "{HTML_URL}/293.html",
+    "author": "JonBro",
+    "authorLink": "https://jonbro.newgrounds.com"
+  },
+  {
+    "id": 294,
+    "name": "Idle Dice",
+    "cover": "{COVER_URL}/294.png",
+    "url": "{HTML_URL}/294.html",
+    "author": "Lutz Schönfelder",
+    "authorLink": "https://github.com/luts91"
+  },
+  {
+    "id": 295,
+    "name": "12 Mini Battles",
+    "cover": "{COVER_URL}/295.png",
+    "url": "{HTML_URL}/295.html",
+    "author": "Shared Dreams Studio",
+    "authorLink": "https://play.google.com/store/apps/dev?id=6107531068522107777&hl=en_US"
+  },
+  {
+    "id": 296,
+    "name": "Play!.js",
+    "cover": "{COVER_URL}/296.png",
+    "url": "{HTML_URL}/296.html",
+    "author": "jpd002",
+    "authorLink": "https://github.com/jpd002/Play-"
+  },
+  {
+    "id": 297,
+    "name": "Minecraft 1.5.2",
+    "cover": "{COVER_URL}/297.png",
+    "url": "{HTML_URL}/297.html",
+    "author": "lax1dude",
+    "authorLink": "https://eaglercraft.com"
+  },
+  {
+    "id": 298,
+    "name": "Minecraft Alpha 1.2.6",
+    "cover": "{COVER_URL}/298.png",
+    "url": "{HTML_URL}/298.html",
+    "author": "lax1dude",
+    "authorLink": "https://eaglercraft.com"
+  },
+  {
+    "id": 299,
+    "name": "Minecraft Beta 1.3",
+    "cover": "{COVER_URL}/299.png",
+    "url": "{HTML_URL}/299.html",
+    "author": "lax1dude",
+    "authorLink": "https://eaglercraft.com"
+  },
+  {
+    "id": 300,
+    "name": "Minecraft Beta 1.7.3",
+    "cover": "{COVER_URL}/300.png",
+    "url": "{HTML_URL}/300.html",
+    "author": "lax1dude",
+    "authorLink": "https://eaglercraft.com"
+  },
+  {
+    "id": 301,
+    "name": "Minecraft Indev",
+    "cover": "{COVER_URL}/301.png",
+    "url": "{HTML_URL}/301.html",
+    "author": "lax1dude",
+    "authorLink": "https://eaglercraft.com"
+  },
+  {
+    "id": 302,
+    "name": "Little Runmo",
+    "cover": "{COVER_URL}/302.png",
+    "url": "{HTML_URL}/302.html",
+    "author": "juhosprite, gooseworx",
+    "authorLink": "https://juhosprite.itch.io/little-runmo"
+  },
+  {
+    "id": 303,
+    "name": "Territorial.io",
+    "cover": "{COVER_URL}/303.png",
+    "url": "{HTML_URL}/303.html",
+    "author": "TTCreator",
+    "authorLink": "https://play.google.com/store/apps/dev?id=8652009334379030762"
+  },
+  {
+    "id": 304,
+    "name": "Alien Hominid",
+    "cover": "{COVER_URL}/304.png",
+    "url": "{HTML_URL}/304.html",
+    "author": "Tom Fulp, Dan Paladin",
+    "authorLink": "https://www.newgrounds.com/portal/view/59593"
+  },
+  {
+    "id": 305,
+    "name": "Tanuki Sunset",
+    "cover": "{COVER_URL}/305.png",
+    "url": "{HTML_URL}/305.html",
+    "author": "Rewind Games",
+    "authorLink": "https://store.steampowered.com/app/1251460/Tanuki_Sunset/"
+  },
+  {
+    "id": 306,
+    "name": "Shipo.io",
+    "cover": "{COVER_URL}/306.png",
+    "url": "{HTML_URL}/306.html",
+    "author": "OnRush Studio",
+    "authorLink": "https://onrush.studio"
+  },
+  {
+    "id": 307,
+    "name": "Rainbow Obby",
+    "cover": "{COVER_URL}/307.png",
+    "url": "{HTML_URL}/307.html",
+    "author": "emolingo games",
+    "authorLink": "https://emolingo.games"
+  },
+  {
+    "id": 308,
+    "name": "Nazi Zombies: Portable",
+    "cover": "{COVER_URL}/308.png",
+    "url": "{HTML_URL}/308.html",
+    "author": "nzp team",
+    "authorLink": "https://nzp-team.itch.io/nazi-zombies-portable"
+  },
+  {
+    "id": 309,
+    "name": "Sandboxels",
+    "cover": "{COVER_URL}/309.png",
+    "url": "{HTML_URL}/309.html",
+    "author": "R74N",
+    "authorLink": "https://store.steampowered.com/app/3664820/Sandboxels/"
+  },
+  {
+    "id": 310,
+    "name": "Dreadhead Parkour",
+    "cover": "{COVER_URL}/310.png",
+    "url": "{HTML_URL}/310.html",
+    "author": "GameTornado",
+    "authorLink": "https://gametornado.com/"
+  },
+  {
+    "id": 311,
+    "name": "Sandtris",
+    "cover": "{COVER_URL}/311.png",
+    "url": "{HTML_URL}/311.html",
+    "author": "FRANCO MIRANDA",
+    "authorLink": "https://francomiranda.com"
+  },
+  {
+    "id": 312,
+    "name": "BlackJack",
+    "cover": "{COVER_URL}/312.png",
+    "url": "{HTML_URL}/312.html",
+    "author": "Synic-dx",
+    "authorLink": "https://github.com/Synic-dx/blackJack/"
+  },
+  {
+    "id": 313,
+    "name": "Minesweeper Mania",
+    "cover": "{COVER_URL}/313.png",
+    "url": "{HTML_URL}/313.html",
+    "author": "gamesnacks",
+    "authorLink": "https://gamesnacks.com"
+  },
+  {
+    "id": 314,
+    "name": "Super Mario 63",
+    "cover": "{COVER_URL}/314.png",
+    "url": "{HTML_URL}/314.html",
+    "author": "Runouw",
+    "authorLink": "https://runouw.com/games/"
+  },
+   {
+    "id": 315,
+    "name": "Pixel Battlegrounds",
+    "cover": "{COVER_URL}/315.png",
+    "url": "{HTML_URL}/315.html",
+    "author": "JizzleApps",
+    "authorLink": "https://www.amazon.com.au/Apps-Games-JizzleApps/s?rh=n%3A2544160051%2Cp_4%3AJizzleApps"
+  }
+]
