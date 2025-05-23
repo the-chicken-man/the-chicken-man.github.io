@@ -1,5 +1,12 @@
 [
- 
+  {
+    "id": -1,
+    "name": "Request Game",
+    "cover": "https://chicken-os.pages.dev/Chicken.png",
+    "url": "https://dotpagesdotdev.pages.dev/apps/contact.html",
+    "author": "Me",
+    "authorLink": "https://chicken-os.pages.dev"
+  },
   {
     "id": 0,
     "name": "Bowmasters",
