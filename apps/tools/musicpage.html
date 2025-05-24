@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    body {
+      background: black;
+      color: yellow;
+      font-family: Courier New, Monospace;
+      text-align: center;
+      cursor: crosshair;
+    }
+    input {
+      padding: 10px;
+      width: 300px;
+      font-size: 16px;
+      border-radius: 40px;
+      border: none;
+    }
+    
+    }
+    li {
+      background: black;
+      margin: 10px auto;
+      padding: 10px;
+      width: 400px;
+      border-radius: 5px;
+    }
+    li:hover {
+      background: grey;
+    }
+    audio {
+      margin-top: 2rem;
+      width: 60%;
+    }
+  </style>
+</head>
+<body>
+  <h1>ChickenOS Music</h1>
+  <input id="searchBoxchicken" type="text" placeholder="Search for music..." />
+  <ul id="resultschicken"></ul>
+  <audio id="playeroggabooga" controls></audio>
+
+  <script>
+    const searchBox = document.getElementById("searchBoxchicken");
+    const results = document.getElementById("resultschicken");
+    const audio = document.getElementById("playeroggabooga");
+
+    function jsonpRequest(url, callbackName) {
+      const script = document.createElement("script");
+      script.src = url + "&output=jsonp&callback=" + callbackName;
+      document.body.appendChild(script);
+    }
+
+    function showResults(data) {
+      results.innerHTML = "";
+      data.data.slice(0, 10).forEach(track => {
+        const li = document.createElement("li");
+        li.textContent = `${track.artist.name} - ${track.title}`;
+        li.onclick = () => {
+          audio.src = track.preview;
+          audio.play();
+        };
+        results.appendChild(li);
+      });
+    }
+
+    searchBox.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") {
+        const query = searchBox.value.trim();
+        if (query) {
+          const url = `https://api.deezer.com/search?q=${encodeURIComponent(query)}`;
+          jsonpRequest(url, "showResults");
+        }
+      }
+    });
+  </script>
+</body>
+</html>
