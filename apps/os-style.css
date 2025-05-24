@@ -1,101 +1,38 @@
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    background-color: black;
-    font-family: 'Courier New', Courier, monospace;
-    color: yellow;
-  }
+<head>
+  <style>
+    body {
+      background-color: black;
+      font-family: 'Courier New', monospace;
+      color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <p id="typewritereffect"></p>
 
-  .taskbar {
-    height: 40px;
-    width: 98.5%;
-    background-color: #202020;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 10px;
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.4);
-  }
+  <script>
+    const text = `Welcome to ChickenOS V2...
+Booting up...
+Installing files..
+Loading...
+Complete!`;
 
-  .start-button {
-    background: #0078D7;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 3px;
-    cursor: pointer;
-    font-weight: bold;
-  }
+    const speed = 100; 
+    let i = 0;
 
-  .cooliconsyeheyeh {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-  }
+    function type() {
+      if (i < text.length) {
+        const char = text.charAt(i);
+        if (char === '\n' || char === '\r') {
+          document.getElementById("typewritereffect").innerHTML += "<br>";
+        } else {
+          document.getElementById("typewritereffect").innerHTML += char;
+        }
+        i++;
+        setTimeout(type, speed);
+      }
+    }
 
-  .cooliconsyeheyeh img {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-  }
-
-  .clock {
-    font-size: 14px;
-  } 
-body {
-background-color: black;
-color: yellow;
-font-family: Courier New, monospace;;
-}
-h1 {
-font-family: 'Courier', monospace;
-text-align: center;
-}
-
- 
-body {
-  background-color: black;
-  color: yellow;
-  font-family: Courier New, monospace;;
-}
-
-button {
-  background-color: black;
-  border: yellow;
-  color: yellow;
-  padding: 5px 10px;
-  text-align: center;
-  display: inline-block;
-  font-size: 20px;
-}
-.sigma-btn {
-  background-color: black;
-  border: 2px solid yellow;
-  color: yellow;
-  padding: 5px 10px;
-  text-align: center;
-  display: inline-block;
-  font-size: 20px;
-  font-family: 'Share Tech Mono', monospace;
-  transition: all 0.3s ease;
-  cursor: pointer;
-  text-shadow: 0 0 5px yellow;
-  box-shadow: 0 0 10px yellow inset;
-}
-
-.sigma-btn:hover {
-  background-color: yellow;
-  color: black;
-  box-shadow: 0 0 20px yellow;
-  text-shadow: none;
-}
-
-h1, h2 {
-  margin: 0;
-  padding: 10px 20px;
-  text-align: center;
-}
+    type();
+  </script>
+</body>
