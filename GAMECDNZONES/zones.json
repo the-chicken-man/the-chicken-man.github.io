@@ -311,38 +311,7 @@
     "author": "",
     "authorLink": ""
   },
-  {
-    "id": 38,
-    "name": "Five Nights at Freddy's",
-    "cover": "{COVER_URL}/38.png",
-    "url": "{HTML_URL}/38.html",
-    "author": "",
-    "authorLink": ""
-  },
-  {
-    "id": 39,
-    "name": "Five Nights at Freddy's 2",
-    "cover": "{COVER_URL}/39.png",
-    "url": "{HTML_URL}/39.html",
-    "author": "",
-    "authorLink": ""
-  },
-  {
-    "id": 40,
-    "name": "Five Nights at Freddy's 3",
-    "cover": "{COVER_URL}/40.png",
-    "url": "{HTML_URL}/40.html",
-    "author": "",
-    "authorLink": ""
-  },
-  {
-    "id": 41,
-    "name": "Five Nights at Freddy's 4",
-    "cover": "{COVER_URL}/41.png",
-    "url": "{HTML_URL}/41.html",
-    "author": "",
-    "authorLink": ""
-  },
+  
   {
     "id": 42,
     "name": "Road of Fury",
