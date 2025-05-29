@@ -1449,14 +1449,7 @@
     "author": "Toby Fox, BluePhoenix25",
     "authorLink": "https://scratch.mit.edu/projects/791527350"
   },
-  {
-    "id": 185,
-    "name": "Five Nights at Freddy's: Sister Location",
-    "cover": "{COVER_URL}/185.png",
-    "url": "{HTML_URL}/185.html",
-    "author": "Scott Cawthon",
-    "authorLink": "https://scottgames.com"
-  },
+ 
   {
     "id": 186,
     "name": "Ragdoll Archers",
@@ -1497,22 +1490,7 @@
     "author": "Scott Cawthon",
     "authorLink": "https://scottgames.com"
   },
-  {
-    "id": 191,
-    "name": "Five Nights at Freddy's: Pizza Simulator",
-    "cover": "{COVER_URL}/191.png",
-    "url": "{HTML_URL}/191.html",
-    "author": "Scott Cawthon",
-    "authorLink": "https://scottgames.com"
-  },
-  {
-    "id": 192,
-    "name": "Five Nights at Freddy's: Ultimate Custom Night",
-    "cover": "{COVER_URL}/192.png",
-    "url": "{HTML_URL}/192.html",
-    "author": "Scott Cawthon",
-    "authorLink": "https://scottgames.com"
-  },
+  
   {
     "id": 193,
     "name": "Do NOT Take This Cat Home",
