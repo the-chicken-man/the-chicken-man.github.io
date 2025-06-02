@@ -1076,8 +1076,6 @@ function MineKhan() {
 		"pause": () => {},
 		"creation menu": () => {},
 		"inventory": () => {},
-		"multiplayer menu": () => {},
-		"comingsoon menu": () => {},
 		"loadsave menu": () => {},
 	}
 	let html = {
@@ -4314,7 +4312,6 @@ function MineKhan() {
 
 		// Main menu buttons
 		Button.add(width / 2, height / 2 - 20, 400, 40, "Singleplayer", "main menu", r => changeScene("loadsave menu"))
-		Button.add(width / 2, height / 2 + 35, 400, 40, "Multiplayer", "main menu", nothing, always, "Multiplayer isn't possible at this time.")
 		Button.add(width / 2, height / 2 + 90, 400, 40, "Options", "main menu", r => changeScene("options"))
 
 		// Creation menu buttons
@@ -4447,8 +4444,7 @@ function MineKhan() {
 		// Comingsoon menu buttons
 		Button.add(width / 2, 395, width / 3, 40, "Back", "comingsoon menu", r => changeScene(previousScreen))
 
-		// Multiplayer buttons
-		Button.add(width / 2, 395, width / 3, 40, "¯\\_(ツ)_/¯", "multiplayer menu", r => changeScene("main menu"))
+		
 
 		// Settings Sliders
 		Slider.add(width/2, 245, width / 3, 40, "options", "Render Distance", 1, 32, "renderDistance", val => settings.renderDistance = Math.round(val))
