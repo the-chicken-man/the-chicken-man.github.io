@@ -39,7 +39,7 @@
 	}
 
 	strong {
-		color: white;
+		color: yellow;
 	}
 
 	.selected {
@@ -51,7 +51,7 @@
 		background-color: black;
 		caret-color: white;
 		border: 2px solid gray;
-		color: white;
+		color: yellow;
 		font-size: 24px;
 		padding-left: 12px;
 	}
@@ -76,8 +76,8 @@
 	}
 
 	#onhover {
-		background-color: rgba(0, 0, 0, 0.9);
-		color: rgb(200, 200, 200);
+		background-color: black;
+		color: yellow;
 		font-family: 'Courier New', Courier, monospace;
 		word-wrap: normal;
 		width: auto;
@@ -98,7 +98,7 @@
 		background-color: RGBA(0, 0, 0, 0.6);
 		justify-content: center;
 		text-align: center;
-		color: white;
+		color: yellow;
 	}
 </style>
 
@@ -5374,42 +5374,30 @@ function MineKhan() {
 	}
 
 	// Define all the scene draw functions
-	(function() {
-		function title() {
-			let title = "ChickenCraft"
-			let subtext = "Special Thanks To Original Project 'Minecraft javscript edition' "
-			let font = "Courier, monospace"
-			strokeWeight(1)
-			ctx.textAlign = 'center'
+	(function () {
+	function title() {
+		let title = "ChickenCraft"
+		let subtext = "Special Thanks To Original Project 'Minecraft javascript edition'"
+		let font = "Courier, monospace"
+		
+		strokeWeight(1)
+		ctx.textAlign = 'center'
 
-			ctx.font = "bold 120px " + font
-			fill(30)
-			text(title, width / 2, 158)
-			fill(40)
-			text(title, width / 2, 155)
-			ctx.font = "bold 121px " + font
-			fill(50)
-			text(title, width / 2, 152)
-			fill(70)
-			text(title, width / 2, 150)
-			fill(90)
-			ctx.font = "bold 122px " + font
-			text(title, width / 2, 148)
-			fill(110)
-			text(title, width / 2, 145)
+		// Title
+		ctx.font = "bold 120px " + font
+		fill(255) // Change this to any RGB value you want (e.g., fill(255, 0, 0) for red)
+		text(title, width / 2, 150)
 
-			ctx.font = "bold 32px " + font
-			fill(50)
-			text(subtext, width / 2-1, 180)
-			text(subtext, width / 2+1, 180)
-			text(subtext, width / 2, 179)
-			text(subtext, width / 2, 181)
-			ctx.font = "bold 32px " + font
-			fill(150)
-			text(subtext, width / 2, 180)
-		}
-		const clear = () => ctx.clearRect(0, 0, canvas.width, canvas.height)
-		const dirt = () => ctx.putImageData(dirtbg, 0, 0)
+		// Subtext
+		ctx.font = "bold 32px " + font
+		fill(180) // Adjust as needed
+		text(subtext, width / 2, 180)
+	}
+
+	const clear = () => ctx.clearRect(0, 0, canvas.width, canvas.height)
+	const dirt = () => ctx.putImageData(dirtbg, 0, 0)
+})();
+
 
 		drawScreens["main menu"] = () => {
 			ctx.putImageData(mainbg, 0, 0)
