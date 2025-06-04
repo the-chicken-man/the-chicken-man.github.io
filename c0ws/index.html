@@ -1,6 +1,8 @@
+
 <!DOCTYPE html>
 <html>
   <head>
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
     <title>c0ws Biology EDU</title>
     <link rel="icon" type="image/x-icon" href="https://assets.onecompiler.app/43abvd9sc/43km3snjy/education.png">
  <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,10 +16,26 @@
        background-color: #9DF9EF;
        text-align: center;
        cursor: crosshair;
+       padding-top: 35px;
      }
      
     
-     
+      .banner {
+          height: top;
+          width: 100%;
+          
+          background-color: red;
+          color: white;
+          font-family: 'Anton', Sans-Serif;
+        }
+        
+        .banner a {
+          text-decoration: none; color: white; font-size: 28px; 
+        }
+        
+        .banner a:hover {
+          color: blue;
+        }
       .page { display: none;
       padding-top:2%; }
     .active { display: block; }
@@ -46,7 +64,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
   </head>
   <body>
-     
+     <div class="banner">
+       <a href="https://duckduckgo.com" target="_blank"  onclick="window.close()">Panic button</a> 
+     </div>
         <nav>
     <button class="c0wsbutton" onclick="showPage('home')"> <i class="fas fa-home"> </i></button>
     <button class="c0wsbutton" onclick="showPage('gxmes')"><i class="fas fa-gamepad"></i></button>
@@ -82,10 +102,8 @@
    
     <style>
        
-        body {
-            font-family: 'Consolas', monospace;
-           color: #A28089;
-       background-color: #9DF9EF;
+       
+      
             
         }
 
@@ -99,7 +117,7 @@
             
         }
 
-        
+       
 
        
 
