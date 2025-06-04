@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Cow Biology EDU</title>
+    <title>c0ws EDU</title>
     <link rel="icon" type="image/x-icon" href="https://assets.onecompiler.app/43abvd9sc/43km3snjy/education.png">
  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -573,7 +573,171 @@
 </div>
 
 <div id="browser" class="page">
-  <h1> browse</h1>
+ 
+  <style>
+   
+    
+    #controls {
+      background: #73E2D3;
+      color: #717678;
+      padding: 0.5em;
+    }
+    input {
+      width: 300px;
+      padding: 0.5em;
+    }
+    
+    }
+    #tabs {
+      display: flex;
+      background: #717678;
+      overflow-x: auto;
+    }
+    .tab {
+     display: flex;
+      align-items: center;
+      padding: 0.5em 1em;
+      color: #A28089;
+      border-right: 1px solid #444;
+      white-space: nowrap;
+    }
+    .tab.active {
+      background-color: #717678;
+      color: white;
+    }
+    .tab img {
+      width: 16px;
+      height: 16px;
+      margin-right: 0.5em;
+    }
+    .tab .close {
+      margin-left: 0.5em;
+      color: red;
+      font-size: 40px;
+      cursor: pointer;
+    }
+    .view {
+      display: none;
+      width: 100%;
+      height: calc(100vh - 110px);
+     
+    }
+    .view.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="controls">
+    <input id="urlInput" placeholder="https://whatever-site-you-want.com" />
+    <button class="c0wsbutton"onclick="openTab()">Open in new Tab</button>
+  </div>
+
+  <div id="tabs"></div>
+  <div id="views"></div>
+
+  <script>
+    let tabCount = 0;
+    let currentTab = null;
+
+    function openTab(url = null) {
+      if (!url) url = document.getElementById('urlInput').value;
+      if (!url.startsWith('http')) return alert('Please enter a full URL starting with https://');
+
+      const tabId = `tab${tabCount++}`;
+      loadUrlInTab(tabId, url);
+
+      const tabEl = document.createElement('div');
+      tabEl.className = 'tab';
+      tabEl.id = 'tab-' + tabId;
+      tabEl.innerHTML = `<img src="" alt=""> <span>(Loading...)</span> <span class="close" onclick="closeTab('${tabId}', event)">x</span>`;
+      tabEl.onclick = () => switchTab(tabId);
+      document.getElementById('tabs').appendChild(tabEl);
+
+      const iframe = document.createElement('iframe');
+      iframe.className = 'view';
+      iframe.id = 'view-' + tabId;
+      document.getElementById('views').appendChild(iframe);
+
+      switchTab(tabId);
+    }
+
+    function getFolderUrl(url) {
+      const u = new URL(url);
+      u.pathname = u.pathname.replace(/\/[^\/?#]*$/, '/'); 
+      return u.href;
+    }
+
+    function loadUrlInTab(tabId, url) {
+      document.getElementById('urlInput').value = url;
+      const proxyUrl = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(url);
+
+      fetch(proxyUrl)
+        .then(r => r.text())
+        .then(html => {
+          const folderHref = getFolderUrl(url);
+
+          const injection = `
+            <base href="${folderHref}">
+            <script>
+              document.addEventListener('click', function(e) {
+                let el = e.target;
+                while (el && el.tagName !== 'A') el = el.parentElement;
+                if (el && el.getAttribute && el.getAttribute('href')) {
+                  e.preventDefault();
+                  const link = el.getAttribute('href');
+                  const newUrl = new URL(link, '${folderHref}').href;
+                  parent.postMessage({ type: 'navigate', url: newUrl }, '*');
+                }
+              }, true);
+            <\/script>
+          `;
+
+          html = html.replace(/<head[^>]*>/i, match => match + injection);
+
+          const iframe = document.getElementById('view-' + tabId);
+          iframe.srcdoc = html;
+
+         
+          const tempDoc = new DOMParser().parseFromString(html, 'text/html');
+          const title = tempDoc.querySelector('title')?.textContent || url;
+          document.querySelector(`#tab-${tabId} span`).textContent = title;
+        });
+    }
+
+    function switchTab(tabId) {
+      currentTab = tabId;
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+      document.getElementById('tab-' + tabId).classList.add('active');
+      document.getElementById('view-' + tabId).classList.add('active');
+    }
+
+    function closeTab(tabId, event) {
+      event.stopPropagation();
+      document.getElementById('tab-' + tabId).remove();
+      document.getElementById('view-' + tabId).remove();
+      if (currentTab === tabId) {
+        const remaining = document.querySelector('.tab');
+        if (remaining) remaining.click();
+        else currentTab = null;
+      }
+    }
+
+    window.addEventListener('message', (event) => {
+      if (event.data?.type === 'navigate' && event.data.url) {
+        if (currentTab) {
+          document.getElementById('urlInput').value = event.data.url;
+          loadUrlInTab(currentTab, event.data.url);
+        }
+      }
+    });
+  </script>
+
+</body>
+</html>
+
 </div>
 <script>
     function showPage(pageId) {
