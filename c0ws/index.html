@@ -20,6 +20,22 @@
        padding-top: 35px;
      }
      
+      #battery-main {
+            width: 80px;
+            height: 12px;
+            border: 2px solid #A28089;
+            padding: 2px;
+          
+             margin: auto;
+  
+            
+        }
+
+        #battery-bar {
+            height: 100%;
+            background-color: #A28089;
+            
+        }
     
       .banner {
           height: top;
@@ -82,6 +98,25 @@
       <h4> the web is for c0ws</h4>
       
       <p id="currentTime"></p>
+      
+       <div id="battery-main">
+        <div id="battery-bar"></div>
+    </div>
+    
+
+    <script>
+        navigator.getBattery().then(function(battery) {
+            function updateBatteryInfo() {
+                const level = battery.level * 100;
+                document.getElementById('battery-bar').style.width = level + '%';
+                
+            }
+
+            updateBatteryInfo();
+
+            battery.addEventListener('levelchange', updateBatteryInfo);
+        });
+    </script>
   </div>
     <div id="extras" class="page">
      <button class="c0wsbutton"><a href="index.html" class="downloadbtn"download> Download c0ws unblocked as file</a></button>
